@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "layout": "featured",
+    "title": "Nova Dashboard",
+    "category": "Fintech",
+    "description": "Real-time market data visualization platform",
+    "tags": ["React", "TypeScript", "D3.js", "Tailwind"],
+    "year": "2023",
+    "details": "A comprehensive overhaul of a financial data visualization platform. The primary goal was to improve rendering performance for real-time crypto and stock market data while maintaining a clean, accessible interface.",
+    "cols": "md:col-span-2 lg:col-span-2",
+    "rows": "row-span-1 lg:row-span-2",
+    "links": {
+      "demo": "https://example.com/nova",
+      "github": "https://github.com/username/nova-dashboard"
+    },
+    "images": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCY6pQVOQKUhB-Kh4MoaU1NZmWun_DIAGajKow6HkWcBRUJ1mPiRNm4niffh-fEWVfaPfLYGnon9BrZVoQXeY_rLZEoEz4IVDU7jIGEJpAJVqihnMGM08XnAMwa6B5lr7eFA_dsZYiSoEs5_yBCvRj1DZVto3HTPY0xEPqhvlasxk1xZaboZfCnnf42P_aN1yHp2gj9c1eMcrUHCmDKOQ_tqbtgTo7rYyXQtPUKWlbOa9Vqsy-QJcv09-XUhkvb6_SXzgExO5cb9ocQ",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAlxxJwKzUB8EMowZz4rRx_QZ44Qyliq5Fs9S3BqJfPkFUMEhohD_XAQENefiuhrK_zbr3aAj621NOtyEnzoCdN2-Ltw3MNS0ri7p3MuWyRUvz7qnBrb35k8qpxlFysBHSJtDvNix-iOPXXsAzR56p8Qqpq_j8bK-dxF7vv1wmhjkXexktCmxjhy2zeTEUk_0HOotpq_Y1E4dG-Jj90KuJi7JvoFip6wpbj3UJhrkGukf86gqvIBTuM0OwMRNl3JzCbjPnRMfqLsetl",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCGph5NIt6-VW_SjhgOZWl6_nzt7NTuyRJEez84ji8KdsuIOxCw0W86De9oCEmHHulBo7nu8z8hm-FQeMiYO7f3P_df4PLdxzfGoKoLF-CRVJO5ENcpY9iIZYK7FmHTCzRA9jdQKfqV2Z3d-7H1kf6JKs4LOKWWmFjnXoyKjqYXwUP9Ay3IB2fJFV3jlVF0HCq0qORhTYAhaE0xhJUhabbeBXfoOzcGjbSjKDlH2a6KvRNfgdvWAJFv-ms8TKA9OgJBKmYBF6Z4hfKW"
+    ]
+  },
+  {
+    "id": 2,
+    "layout": "standard",
+    "title": "Lumina Gallery",
+    "category": "React Native",
+    "description": "Minimalist curated art gallery experience",
+    "tags": ["React Native", "Expo", "Reanimated"],
+    "year": "2023",
+    "details": "A mobile-first gallery experience designed to showcase digital art collections. Features smooth gesture-based navigation and an immersive viewing mode.",
+    "links": {
+      "demo": "https://example.com/lumina",
+      "github": "https://github.com/username/lumina-gallery"
+    },
+    "images": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCb_cyUI1BuKlhYd2d2GQS1Vgx4w9J-rTrbI2EcJweh19GGVgesee-0_jIddPJFooqnL7FUVCYje_RNmKHVrQo3QUuQLOWNAl8FMFZJtDbQp2QzqONVFrxqJorBcCcqWNQsY1ZDsuPbu6sxWhYjbED0mXVlb5sHAU0qgmg2qVaAi4yIH3igrc4I6PNeLjnTRbz9O0IyV45WXAeYcdlVDZ2H_77M-kx43CtCfyRIOh2YnZ4VPbJ1eAla7vyIemKoatgwKqwaZASoum6f",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuD6f4KP832g7FJDvBLZ8uXN28PqFiCBEIBE0KyLUCwQ22KviQ2r5-qVibYN-MyN5l_c1RdhwKhxMR1JLvUoMNPCHcvp3J3NxOa-68pcVb_ZdJEypcVsszyXdfc91WABjvF36Yx2-OcKmDZZXAhxvXWbMcgrHM7Fz2m8Q9nSTnCttRs5nn0EyTdq8W-AOX90raAUUYyAIazC75rcbSzoM03EoBl_eJbJMIgszkfdaS03Il8H621In_tJswc1qkyeEdBxFvaMFjtmLUHj",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAoLB0jiWD_ROZQBqw-I8Z63STb_YfTy9xS04qJAc_PbWS5qzNCvfYr9DahRgiRpF-so9nhK3ZA13kU72B_0X-1RR01q_9WqDqrlqFbmip_2it6qhfaoebYnQXjgTufFxgUiFadZ0M5jBiy_1j9_gHfnkCeYRIO-UXKdkEn-BCbTN3GPQ5ELSr8_oS04Zc21qi2h3AQ3aGimByJZy9ZnYy_-IdVWe4D-A4nB-1lIzNF_0Muma7oGKN9xjyQd5W45umjGgfHwSp1MKMF"
+    ]
+  },
+  {
+    "id": 3,
+    "layout": "standard",
+    "title": "Metrics SaaS",
+    "category": "Vue.js & Firebase",
+    "description": "Data analytics for small businesses",
+    "tags": ["Vue 3", "Firebase", "Chart.js"],
+    "year": "2022",
+    "details": "A lightweight analytics dashboard for SaaS founders. Focuses on key metrics like MRR, Churn, and LTV with a customizable drag-and-drop layout.",
+    "links": {
+      "demo": "https://example.com/metrics",
+      "github": "https://github.com/username/metrics-saas"
+    },
+    "images": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAlxxJwKzUB8EMowZz4rRx_QZ44Qyliq5Fs9S3BqJfPkFUMEhohD_XAQENefiuhrK_zbr3aAj621NOtyEnzoCdN2-Ltw3MNS0ri7p3MuWyRUvz7qnBrb35k8qpxlFysBHSJtDvNix-iOPXXsAzR56p8Qqpq_j8bK-dxF7vv1wmhjkXexktCmxjhy2zeTEUk_0HOotpq_Y1E4dG-Jj90KuJi7JvoFip6wpbj3UJhrkGukf86gqvIBTuM0OwMRNl3JzCbjPnRMfqLsetl",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCY6pQVOQKUhB-Kh4MoaU1NZmWun_DIAGajKow6HkWcBRUJ1mPiRNm4niffh-fEWVfaPfLYGnon9BrZVoQXeY_rLZEoEz4IVDU7jIGEJpAJVqihnMGM08XnAMwa6B5lr7eFA_dsZYiSoEs5_yBCvRj1DZVto3HTPY0xEPqhvlasxk1xZaboZfCnnf42P_aN1yHp2gj9c1eMcrUHCmDKOQ_tqbtgTo7rYyXQtPUKWlbOa9Vqsy-QJcv09-XUhkvb6_SXzgExO5cb9ocQ",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuD1sR2BybABTL7vIbMWOnojuyLkOtgKNhkChELNU094F0twUBJJzeeLfEVEqJXHrTSH9Ur53qOoVq8w9bBYOA1pH0_RpxNNzWhjUsG56siaxyOYb_X-I4fD7yVtHtLBUM5rr9TmeLPQ6ZonX1CLnMvZAyVNFripMrk-tQlPRvoKqeyIQUrIAZSYArntEivgork0bIhnH87IIWa-yaN2vpWuYf5nF8fNQzr8qTtdXuo7uLn02ohAt-70sm11kjtcjIZJBd0k9bHM4SxE"
+    ]
+  },
+  {
+    "id": 4,
+    "layout": "split",
+    "title": "Design System \"Aether\"",
+    "category": "Figma",
+    "description": "Scalable UI kit for enterprise",
+    "tags": ["Figma", "Storybook", "Tokens"],
+    "year": "2023",
+    "details": "A comprehensive UI kit built for scalability and accessibility across 5 product lines. Includes a full token system, dark mode support, and strict accessibility guidelines.",
+    "cols": "md:col-span-2 lg:col-span-2",
+    "links": {
+      "demo": "https://example.com/aether",
+      "github": "https://github.com/username/aether-design-system"
+    },
+    "images": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuD1sR2BybABTL7vIbMWOnojuyLkOtgKNhkChELNU094F0twUBJJzeeLfEVEqJXHrTSH9Ur53qOoVq8w9bBYOA1pH0_RpxNNzWhjUsG56siaxyOYb_X-I4fD7yVtHtLBUM5rr9TmeLPQ6ZonX1CLnMvZAyVNFripMrk-tQlPRvoKqeyIQUrIAZSYArntEivgork0bIhnH87IIWa-yaN2vpWuYf5nF8fNQzr8qTtdXuo7uLn02ohAt-70sm11kjtcjIZJBd0k9bHM4SxE",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCb_cyUI1BuKlhYd2d2GQS1Vgx4w9J-rTrbI2EcJweh19GGVgesee-0_jIddPJFooqnL7FUVCYje_RNmKHVrQo3QUuQLOWNAl8FMFZJtDbQp2QzqONVFrxqJorBcCcqWNQsY1ZDsuPbu6sxWhYjbED0mXVlb5sHAU0qgmg2qVaAi4yIH3igrc4I6PNeLjnTRbz9O0IyV45WXAeYcdlVDZ2H_77M-kx43CtCfyRIOh2YnZ4VPbJ1eAla7vyIemKoatgwKqwaZASoum6f",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuD6f4KP832g7FJDvBLZ8uXN28PqFiCBEIBE0KyLUCwQ22KviQ2r5-qVibYN-MyN5l_c1RdhwKhxMR1JLvUoMNPCHcvp3J3NxOa-68pcVb_ZdJEypcVsszyXdfc91WABjvF36Yx2-OcKmDZZXAhxvXWbMcgrHM7Fz2m8Q9nSTnCttRs5nn0EyTdq8W-AOX90raAUUYyAIazC75rcbSzoM03EoBl_eJbJMIgszkfdaS03Il8H621In_tJswc1qkyeEdBxFvaMFjtmLUHj"
+    ]
+  },
+  {
+    "id": 5,
+    "layout": "standard",
+    "title": "Playground",
+    "category": "Experimental CSS",
+    "description": "Creative code experiments",
+    "tags": ["CSS", "Animation", "WebGL"],
+    "year": "2024",
+    "details": "A collection of creative coding experiments exploring the limits of modern CSS and WebGL. Includes fluid simulations, 3D transformations, and interactive particles.",
+    "links": {
+      "demo": "https://example.com/playground",
+      "github": "https://github.com/username/css-playground"
+    },
+    "images": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuD6f4KP832g7FJDvBLZ8uXN28PqFiCBEIBE0KyLUCwQ22KviQ2r5-qVibYN-MyN5l_c1RdhwKhxMR1JLvUoMNPCHcvp3J3NxOa-68pcVb_ZdJEypcVsszyXdfc91WABjvF36Yx2-OcKmDZZXAhxvXWbMcgrHM7Fz2m8Q9nSTnCttRs5nn0EyTdq8W-AOX90raAUUYyAIazC75rcbSzoM03EoBl_eJbJMIgszkfdaS03Il8H621In_tJswc1qkyeEdBxFvaMFjtmLUHj",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCY6pQVOQKUhB-Kh4MoaU1NZmWun_DIAGajKow6HkWcBRUJ1mPiRNm4niffh-fEWVfaPfLYGnon9BrZVoQXeY_rLZEoEz4IVDU7jIGEJpAJVqihnMGM08XnAMwa6B5lr7eFA_dsZYiSoEs5_yBCvRj1DZVto3HTPY0xEPqhvlasxk1xZaboZfCnnf42P_aN1yHp2gj9c1eMcrUHCmDKOQ_tqbtgTo7rYyXQtPUKWlbOa9Vqsy-QJcv09-XUhkvb6_SXzgExO5cb9ocQ",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCY6pQVOQKUhB-Kh4MoaU1NZmWun_DIAGajKow6HkWcBRUJ1mPiRNm4niffh-fEWVfaPfLYGnon9BrZVoXXeY_rLZEoEz4IVDU7jIGEJpAJVqihnMGM08XnAMwa6B5lr7eFA_dsZYiSoEs5_yBCvRj1DZVto3HTPY0xEPqhvlasxk1xZaboZfCnnf42P_aN1yHp2gj9c1eMcrUHCmDKOQ_tqbtgTo7rYyXQtPUKWlbOa9Vqsy-QJcv09-XUhkvb6_SXzgExO5cb9ocQ",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAlxxJwKzUB8EMowZz4rRx_QZ44Qyliq5Fs9S3BqJfPkFUMEhohD_XAQENefiuhrK_zbr3aAj621NOtyEnzoCdN2-Ltw3MNS0ri7p3MuWyRUvz7qnBrb35k8qpxlFysBHSJtDvNix-iOPXXsAzR56p8Qqpq_j8bK-dxF7vv1wmhjkXexktCmxjhy2zeTEUk_0HOotpq_Y1E4dG-Jj90KuJi7JvoFip6wpbj3UJhrkGukf86gqvIBTuM0OwMRNl3JzCbjPnRMfqLsetl"
+    ]
+  }
+]

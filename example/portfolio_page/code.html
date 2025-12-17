@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfolio Page</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f9f506",
+                        "background-light": "#f8f8f5",
+                        "background-dark": "#23220f",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem", 
+                        "lg": "1.5rem", 
+                        "xl": "2rem", 
+                        "2xl": "2.5rem",
+                        "full": "9999px"
+                    },
+                    keyframes: {
+                        'slide-up': {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        },
+                        'fade-in': {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        }
+                    },
+                    animation: {
+                        'slide-up': 'slide-up 0.6s ease-out forwards',
+                        'fade-in': 'fade-in 0.4s ease-out forwards',
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom Scrollbar for a cleaner look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #e5e5e5; 
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #d4d4d4; 
+        }
+        
+        /* Glass effect utility */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.65);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .dark .glass-panel {
+            background: rgba(30, 30, 30, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Hide scrollbar for gallery */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#181811] dark:text-white transition-colors duration-300 min-h-screen overflow-x-hidden selection:bg-primary selection:text-black">
+<!-- Background Decoration (Noise/Blob) -->
+<div class="fixed inset-0 z-0 pointer-events-none opacity-40 mix-blend-multiply dark:mix-blend-soft-light overflow-hidden">
+<div class="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] bg-blue-200/30 rounded-full blur-3xl"></div>
+<div class="absolute bottom-[-10%] right-[-10%] w-[50vw] h-[50vw] bg-yellow-100/30 rounded-full blur-3xl"></div>
+</div>
+<div class="relative z-10 flex flex-col min-h-screen w-full">
+<!-- Main Content Area -->
+<main class="flex-1 w-full max-w-[1400px] mx-auto px-6 py-12 lg:px-12 lg:py-16">
+<!-- Header Section -->
+<header class="mb-16 animate-slide-up" style="animation-delay: 0.1s;">
+<div class="flex flex-col gap-4 max-w-2xl">
+<h1 class="text-5xl md:text-7xl font-bold tracking-tight text-[#181811] dark:text-white">
+                        Selected Works
+                    </h1>
+<p class="text-xl text-[#8c8b5f] dark:text-gray-400 font-light leading-relaxed max-w-lg">
+                        A curated collection of digital experiences, bridging the gap between functional design and frontend engineering.
+                    </p>
+</div>
+</header>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[340px]">
+<!-- Card 1: Featured (Large) -->
+<div class="group relative col-span-1 md:col-span-2 lg:col-span-2 row-span-1 lg:row-span-2 rounded-xl glass-panel shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden cursor-pointer animate-slide-up" style="animation-delay: 0.2s;">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Abstract 3D visualization of fintech data waves in dark mode" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCY6pQVOQKUhB-Kh4MoaU1NZmWun_DIAGajKow6HkWcBRUJ1mPiRNm4niffh-fEWVfaPfLYGnon9BrZVoQXeY_rLZEoEz4IVDU7jIGEJpAJVqihnMGM08XnAMwa6B5lr7eFA_dsZYiSoEs5_yBCvRj1DZVto3HTPY0xEPqhvlasxk1xZaboZfCnnf42P_aN1yHp2gj9c1eMcrUHCmDKOQ_tqbtgTo7rYyXQtPUKWlbOa9Vqsy-QJcv09-XUhkvb6_SXzgExO5cb9ocQ");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<div class="flex justify-between items-end">
+<div>
+<span class="inline-block px-3 py-1 mb-3 text-xs font-medium tracking-wide uppercase bg-primary text-black rounded-full">Fintech</span>
+<h3 class="text-3xl font-bold text-white mb-1">Nova Dashboard</h3>
+<p class="text-gray-200 text-sm">Real-time market data visualization platform</p>
+</div>
+<button class="bg-white/20 backdrop-blur-md p-3 rounded-full text-white hover:bg-primary hover:text-black transition-colors">
+<span class="material-symbols-outlined text-[24px]">arrow_outward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 2: Medium -->
+<div class="group relative rounded-xl glass-panel shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden cursor-pointer animate-slide-up" style="animation-delay: 0.3s;">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Clean minimalist interface on a tablet device showing a gallery app" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCb_cyUI1BuKlhYd2d2GQS1Vgx4w9J-rTrbI2EcJweh19GGVgesee-0_jIddPJFooqnL7FUVCYje_RNmKHVrQo3QUuQLOWNAl8FMFZJtDbQp2QzqONVFrxqJorBcCcqWNQsY1ZDsuPbu6sxWhYjbED0mXVlb5sHAU0qgmg2qVaAi4yIH3igrc4I6PNeLjnTRbz9O0IyV45WXAeYcdlVDZ2H_77M-kx43CtCfyRIOh2YnZ4VPbJ1eAla7vyIemKoatgwKqwaZASoum6f");'>
+</div>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<div class="glass-panel bg-white/90 dark:bg-black/80 backdrop-blur-md p-4 rounded-lg flex justify-between items-center">
+<div>
+<h3 class="text-lg font-bold text-[#181811] dark:text-white">Lumina Gallery</h3>
+<p class="text-[#8c8b5f] dark:text-gray-400 text-xs">React Native</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 3: Medium -->
+<div class="group relative rounded-xl glass-panel shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden cursor-pointer animate-slide-up" style="animation-delay: 0.4s;">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Data analytics dashboard showing colorful charts and graphs" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAlxxJwKzUB8EMowZz4rRx_QZ44Qyliq5Fs9S3BqJfPkFUMEhohD_XAQENefiuhrK_zbr3aAj621NOtyEnzoCdN2-Ltw3MNS0ri7p3MuWyRUvz7qnBrb35k8qpxlFysBHSJtDvNix-iOPXXsAzR56p8Qqpq_j8bK-dxF7vv1wmhjkXexktCmxjhy2zeTEUk_0HOotpq_Y1E4dG-Jj90KuJi7JvoFip6wpbj3UJhrkGukf86gqvIBTuM0OwMRNl3JzCbjPnRMfqLsetl");'>
+</div>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<div class="glass-panel bg-white/90 dark:bg-black/80 backdrop-blur-md p-4 rounded-lg flex justify-between items-center">
+<div>
+<h3 class="text-lg font-bold text-[#181811] dark:text-white">Metrics SaaS</h3>
+<p class="text-[#8c8b5f] dark:text-gray-400 text-xs">Vue.js &amp; Firebase</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 4: Wide -->
+<div class="group relative col-span-1 md:col-span-2 lg:col-span-2 rounded-xl glass-panel shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden cursor-pointer animate-slide-up" style="animation-delay: 0.5s;">
+<div class="h-full w-full p-8 flex flex-col justify-between relative z-10">
+<div class="flex flex-col gap-2">
+<h3 class="text-2xl font-bold text-[#181811] dark:text-white">Design System "Aether"</h3>
+<p class="text-[#8c8b5f] dark:text-gray-300 max-w-sm">A comprehensive UI kit built for scalability and accessibility across 5 product lines.</p>
+<div class="flex gap-2 mt-2">
+<span class="bg-black/5 dark:bg-white/10 px-3 py-1 rounded-full text-xs font-medium">Figma</span>
+<span class="bg-black/5 dark:bg-white/10 px-3 py-1 rounded-full text-xs font-medium">Storybook</span>
+</div>
+</div>
+<div class="absolute right-0 top-0 bottom-0 w-1/2 bg-cover bg-left mask-image-linear-gradient" data-alt="Macbook screen displaying code and design components side by side" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD1sR2BybABTL7vIbMWOnojuyLkOtgKNhkChELNU094F0twUBJJzeeLfEVEqJXHrTSH9Ur53qOoVq8w9bBYOA1pH0_RpxNNzWhjUsG56siaxyOYb_X-I4fD7yVtHtLBUM5rr9TmeLPQ6ZonX1CLnMvZAyVNFripMrk-tQlPRvoKqeyIQUrIAZSYArntEivgork0bIhnH87IIWa-yaN2vpWuYf5nF8fNQzr8qTtdXuo7uLn02ohAt-70sm11kjtcjIZJBd0k9bHM4SxE"); mask-image: linear-gradient(to right, transparent, black); -webkit-mask-image: linear-gradient(to right, transparent, black);'>
+</div>
+</div>
+</div>
+<!-- Card 5: Medium -->
+<div class="group relative rounded-xl glass-panel shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden cursor-pointer animate-slide-up" style="animation-delay: 0.6s;">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Abstract colorful liquid gradient background representing creative flow" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD6f4KP832g7FJDvBLZ8uXN28PqFiCBEIBE0KyLUCwQ22KviQ2r5-qVibYN-MyN5l_c1RdhwKhxMR1JLvUoMNPCHcvp3J3NxOa-68pcVb_ZdJEypcVsszyXdfc91WABjvF36Yx2-OcKmDZZXAhxvXWbMcgrHM7Fz2m8Q9nSTnCttRs5nn0EyTdq8W-AOX90raAUUYyAIazC75rcbSzoM03EoBl_eJbJMIgszkfdaS03Il8H621In_tJswc1qkyeEdBxFvaMFjtmLUHj");'>
+</div>
+<div class="absolute inset-0 flex items-center justify-center bg-black/30 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<span class="text-white font-medium border border-white/50 px-4 py-2 rounded-full">View Concept</span>
+</div>
+<div class="absolute bottom-6 left-6 right-6 pointer-events-none">
+<div class="glass-panel bg-white/90 dark:bg-black/80 backdrop-blur-md p-4 rounded-lg flex justify-between items-center">
+<div>
+<h3 class="text-lg font-bold text-[#181811] dark:text-white">Playground</h3>
+<p class="text-[#8c8b5f] dark:text-gray-400 text-xs">Experimental CSS</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<!-- Fixed Right Navbar -->
+<nav class="fixed right-6 top-1/2 -translate-y-1/2 z-40 flex flex-col items-end gap-4">
+<div class="glass-panel p-2 rounded-full shadow-lg border border-white/40 dark:border-white/10 flex flex-col gap-2">
+<!-- Nav Item: Home -->
+<a class="group flex items-center justify-end p-3 rounded-full hover:bg-primary transition-all duration-300 relative w-12 hover:w-32 overflow-hidden" href="#">
+<span class="absolute right-12 opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap text-sm font-medium pr-2 text-black">Home</span>
+<span class="material-symbols-outlined text-[24px] group-hover:text-black z-10">home</span>
+</a>
+<!-- Nav Item: Portfolio (Active) -->
+<a class="group flex items-center justify-end p-3 rounded-full bg-primary/20 hover:bg-primary transition-all duration-300 relative w-12 hover:w-32 overflow-hidden" href="#">
+<span class="absolute right-12 opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap text-sm font-medium pr-2 text-black">Portfolio</span>
+<span class="material-symbols-outlined text-[24px] text-black z-10 font-bold" data-weight="fill">grid_view</span>
+</a>
+<!-- Nav Item: About -->
+<a class="group flex items-center justify-end p-3 rounded-full hover:bg-primary transition-all duration-300 relative w-12 hover:w-32 overflow-hidden" href="#">
+<span class="absolute right-12 opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap text-sm font-medium pr-2 text-black">About</span>
+<span class="material-symbols-outlined text-[24px] group-hover:text-black z-10">person</span>
+</a>
+<!-- Nav Item: Contact -->
+<a class="group flex items-center justify-end p-3 rounded-full hover:bg-primary transition-all duration-300 relative w-12 hover:w-32 overflow-hidden" href="#">
+<span class="absolute right-12 opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap text-sm font-medium pr-2 text-black">Contact</span>
+<span class="material-symbols-outlined text-[24px] group-hover:text-black z-10">mail</span>
+</a>
+</div>
+</nav>
+<!-- Modal Overlay (Simulating Open State for Demo) -->
+<!-- This overlay represents the "Reveal" action mentioned in the prompt -->
+<div class="fixed inset-0 z-50 flex items-center justify-center p-4 md:p-8 animate-fade-in">
+<!-- Blurred Backdrop -->
+<div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+<!-- Modal Content -->
+<div class="relative w-full max-w-5xl max-h-[90vh] glass-panel bg-[#f8f8f5]/95 dark:bg-[#1a1a12]/95 rounded-2xl shadow-2xl overflow-hidden flex flex-col animate-slide-up">
+<!-- Close Button -->
+<button class="absolute top-4 right-4 z-20 p-2 rounded-full bg-black/5 hover:bg-primary hover:text-black transition-colors dark:text-white dark:bg-white/10 dark:hover:bg-primary dark:hover:text-black">
+<span class="material-symbols-outlined">close</span>
+</button>
+<div class="flex flex-col md:flex-row h-full overflow-hidden">
+<!-- Left: Details -->
+<div class="flex-1 p-8 md:p-10 flex flex-col gap-6 overflow-y-auto custom-scrollbar">
+<div>
+<div class="flex items-center gap-3 mb-2">
+<span class="px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#8c8b5f] bg-[#f5f5f0] dark:bg-white/10 dark:text-gray-300 rounded-full">Frontend Architecture</span>
+<span class="text-[#8c8b5f] dark:text-gray-500 text-sm">2023</span>
+</div>
+<h2 class="text-3xl md:text-4xl font-bold text-[#181811] dark:text-white mb-2 leading-tight">Fintech Dashboard Redesign</h2>
+</div>
+<!-- Tags -->
+<div class="flex flex-wrap gap-2">
+<div class="flex items-center justify-center px-4 py-1.5 rounded-full bg-black/5 dark:bg-white/10">
+<span class="text-sm font-medium">React</span>
+</div>
+<div class="flex items-center justify-center px-4 py-1.5 rounded-full bg-black/5 dark:bg-white/10">
+<span class="text-sm font-medium">TypeScript</span>
+</div>
+<div class="flex items-center justify-center px-4 py-1.5 rounded-full bg-black/5 dark:bg-white/10">
+<span class="text-sm font-medium">D3.js</span>
+</div>
+<div class="flex items-center justify-center px-4 py-1.5 rounded-full bg-black/5 dark:bg-white/10">
+<span class="text-sm font-medium">Tailwind</span>
+</div>
+</div>
+<div class="prose dark:prose-invert text-[#181811]/80 dark:text-white/80 leading-relaxed text-base md:text-lg">
+<p>
+                            A comprehensive overhaul of a financial data visualization platform. The primary goal was to improve rendering performance for real-time crypto and stock market data while maintaining a clean, accessible interface.
+                        </p>
+<p class="mt-4">
+                            By leveraging D3.js for SVG manipulation and React for state management, we reduced the initial load time by 40% and improved the frame rate during data spikes.
+                        </p>
+</div>
+<div class="mt-auto pt-6">
+<button class="group flex items-center justify-center gap-2 bg-primary text-[#181811] px-8 py-3 rounded-full font-bold text-sm hover:shadow-[0_0_20px_rgba(249,245,6,0.4)] transition-all duration-300 w-fit">
+<span>Visit Project</span>
+<span class="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Right: Visuals / Carousel -->
+<div class="flex-1 bg-[#f0f0eb] dark:bg-black/20 p-8 flex flex-col justify-center relative overflow-hidden group/carousel">
+<!-- Carousel Container -->
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Detailed view of the fintech dashboard dark mode interface showing candlestick charts" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCGph5NIt6-VW_SjhgOZWl6_nzt7NTuyRJEez84ji8KdsuIOxCw0W86De9oCEmHHulBo7nu8z8hm-FQeMiYO7f3P_df4PLdxzfGoKoLF-CRVJO5ENcpY9iIZYK7FmHTCzRA9jdQKfqV2Z3d-7H1kf6JKs4LOKWWmFjnXoyKjqYXwUP9Ay3IB2fJFV3jlVF0HCq0qORhTYAhaE0xhJUhabbeBXfoOzcGjbSjKDlH2a6KvRNfgdvWAJFv-ms8TKA9OgJBKmYBF6Z4hfKW");'>
+</div>
+<!-- Carousel Controls overlay -->
+<div class="absolute inset-0 flex items-center justify-between p-4 opacity-0 group-hover/carousel:opacity-100 transition-opacity duration-300">
+<button class="bg-black/20 backdrop-blur-md text-white p-2 rounded-full hover:bg-black/40">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="bg-black/20 backdrop-blur-md text-white p-2 rounded-full hover:bg-black/40">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Indicators -->
+<div class="flex justify-center gap-3 mt-6">
+<div class="h-1.5 w-8 bg-primary rounded-full"></div>
+<div class="h-1.5 w-2 bg-gray-300 dark:bg-gray-600 rounded-full"></div>
+<div class="h-1.5 w-2 bg-gray-300 dark:bg-gray-600 rounded-full"></div>
+</div>
+<p class="text-center text-xs text-gray-500 mt-4 font-mono">01 / 03 — Main Dashboard View</p>
+</div>
+</div>
+</div>
+</div>
+</body></html>

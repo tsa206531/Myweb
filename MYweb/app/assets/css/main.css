@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 189 185 22;
+  }
+  
+  .dark {
+    --color-primary: 249 245 6;
+  }
+
+  body {
+    @apply bg-background-light dark:bg-background-dark font-display text-[#181811] dark:text-[#e0e0e0] antialiased overflow-x-hidden selection:bg-primary selection:text-black;
+  }
+}
+
+@layer components {
+
+  /* Custom Utilities for Glassmorphism */
+  .glass-panel {
+    @apply backdrop-blur-xl border border-glass-border shadow-glass;
+    /* Fallbacks or specific overrides from example CSS */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background: var(--glass-bg);
+    /* Use theme color or custom var */
+  }
+
+  .dark .glass-panel {
+    @apply border-white/10;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+@layer utilities {
+
+  /* Typewriter Cursor Simulation */
+  .cursor-blink {
+    display: inline-block;
+    width: 10px;
+    height: 1.2em;
+    @apply bg-primary;
+    vertical-align: text-bottom;
+    margin-left: 2px;
+  }
+
+  /* Hide scrollbar for ticker */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Linear Fade Mask */
+  .mask-linear-fade {
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  }
+
+  .mask-image-linear-gradient {
+    mask-image: linear-gradient(to right, transparent, black);
+    -webkit-mask-image: linear-gradient(to right, transparent, black);
+  }
+
+  .transition-timing-linear .swiper-wrapper {
+    transition-timing-function: linear !important;
+  }
+}

@@ -1,0 +1,49 @@
+這一格是：
+
+「一個可被點擊的工程師思考碎片」
+
+不是工具、不是展示技術
+而是讓人感覺你在持續思考如何成為更好的開發者
+
+一、初始畫面（一開始顯示的樣子）
+樣式（建議）
+
+卡片偏霧面 / 半透明
+
+monospace 字體
+
+中央對齊
+
+在 MYweb\app\pages\index.vue 的83行開始 我想要做一個類似 Focus mode ON/OFF 的東西，
+互動行為:狀態1.未點擊的時候會外觀會像 Focus mode ON/OFF ，狀態 2：點擊後，加一個 0.5 秒的延遲動畫 小點閃一下  文字變成：initializing...。狀態 3：顯示一句「開發者思考」。4.每次點擊隨機一句。 hover 時底下小字出現：click for another thought。
+極小動畫 文字 fade + slight slide up 。
+
+
+開發者思考句(做成json格式放進mock資料夾裡面檔案名叫做Focus_mode.json):
+
+好的體驗是無形的
+糟的體驗會一直打擾你
+
+Most bugs are not technical.
+They are communication failures.
+
+If the code is hard to explain,
+the design is not finished.
+
+AI 可以寫得很快
+但留下什麼，是品味決定的
+
+Features are easy.
+Constraints are design.
+
+A calm interface
+is a form of respect.
+
+複雜很容易堆出來
+簡單才需要花力氣
+
+Tools change.
+Principles compound.
+
+Users don’t want features.
+They want outcomes.

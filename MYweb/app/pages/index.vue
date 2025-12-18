@@ -79,6 +79,19 @@
       </a>
     </div>
 
+<!-- Widget -->
+    <div class="md:col-span-1 glass-panel bg-white/50 dark:bg-[#1a1a1a] rounded-3xl p-4 flex flex-col gap-3 group hover:bg-white/80 dark:hover:bg-[#252525] transition-all duration-300">
+      
+
+
+
+
+      
+
+
+    </div>
+<!-- WidgetEND -->
+
     <!-- Tech Stack Ticker -->
     <!-- Tech Stack Ticker (Swiper) -->
     <div class="md:col-span-1 lg:col-span-2 glass-panel bg-white/30 dark:bg-white/5 rounded-3xl p-6 flex flex-col justify-center overflow-hidden">

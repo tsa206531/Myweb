@@ -48,6 +48,8 @@ export default <Config>{
                 'enter-up': 'slideUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards', // Alias for compat
                 'blob': 'blob 7s infinite',
                 'fade-in': 'fadeIn 0.4s ease-out forwards',
+                'dot-pulse': 'dotPulse 0.5s ease-in-out',
+                'thought-enter': 'thoughtEnter 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards',
             },
             keyframes: {
                 slideUp: {
@@ -63,6 +65,14 @@ export default <Config>{
                 fadeIn: {
                     '0%': { opacity: '0' },
                     '100%': { opacity: '1' },
+                },
+                dotPulse: {
+                    '0%, 100%': { opacity: '0.4', transform: 'scale(0.9)' },
+                    '50%': { opacity: '1', transform: 'scale(1.1)' },
+                },
+                thoughtEnter: {
+                    '0%': { opacity: '0', transform: 'translateY(10px)' },
+                    '100%': { opacity: '1', transform: 'translateY(0)' },
                 }
             }
         },

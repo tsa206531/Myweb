@@ -80,15 +80,47 @@
     </div>
 
 <!-- Widget -->
-    <div class="md:col-span-1 glass-panel bg-white/50 dark:bg-[#1a1a1a] rounded-3xl p-4 flex flex-col gap-3 group hover:bg-white/80 dark:hover:bg-[#252525] transition-all duration-300">
-      
+    <div 
+      class="md:col-span-1 lg:col-span-2 xl:col-span-1 glass-panel bg-white/50 dark:bg-[#1a1a1a] rounded-3xl p-6 flex flex-col justify-center items-center group hover:bg-white/80 dark:hover:bg-[#252525] transition-all duration-300 cursor-pointer relative overflow-hidden min-h-[180px]"
+      @click="handleThoughtClick"
+    >
+      <!-- 狀態 1: Idle (Focus mode ON/OFF 樣式) -->
+      <div v-if="thoughtState === 'idle'" class="flex flex-col items-center gap-3 w-full">
+        <div class="flex items-center gap-3">
+          <div class="w-11 h-6 bg-gradient-to-b from-slate-200 to-slate-300 dark:from-slate-600 dark:to-slate-700 rounded-full relative transition-all duration-300 shadow-[inset_0_2px_4px_rgba(0,0,0,0.1)] border border-slate-300/30 dark:border-slate-500/30">
+            <div class="absolute left-0.5 top-0.5 w-5 h-5 bg-gradient-to-b from-white to-slate-50 dark:from-slate-200 dark:to-slate-300 rounded-full transition-all duration-300 shadow-[0_2px_4px_rgba(0,0,0,0.2)]"></div>
+          </div>
+          <span class="text-sm font-medium text-slate-600 dark:text-slate-400">Focus mode</span>
+        </div>
+        
+        <!-- Hover 提示 -->
+        <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute bottom-4">
+          <p class="text-xs text-slate-400 dark:text-slate-500 font-mono">click for another thought</p>
+        </div>
+      </div>
 
+      <!-- 狀態 2: Loading (initializing...) -->
+      <div v-if="thoughtState === 'loading'" class="flex flex-col items-center gap-3">
+        <div class="w-2 h-2 bg-primary rounded-full animate-dot-pulse"></div>
+        <span class="text-sm font-mono text-slate-600 dark:text-slate-400">initializing...</span>
+      </div>
 
-
-
-      
-
-
+      <!-- 狀態 3: Showing Thought -->
+      <div v-if="thoughtState === 'showing'" class="flex flex-col items-center gap-2 text-center px-4">
+        <div 
+          v-for="(line, index) in currentThought.lines" 
+          :key="index"
+          class="animate-thought-enter text-base md:text-lg font-medium text-slate-700 dark:text-slate-300 leading-relaxed"
+          :style="{ animationDelay: `${index * 0.1}s` }"
+        >
+          {{ line }}
+        </div>
+        
+        <!-- Hover 提示 -->
+        <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute bottom-4">
+          <p class="text-xs text-slate-400 dark:text-slate-500 font-mono">click for another thought</p>
+        </div>
+      </div>
     </div>
 <!-- WidgetEND -->
 
@@ -182,11 +214,53 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
 import { Autoplay } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import 'swiper/css'
 import techData from '../../mock/Tech.json'
+import thoughtsData from '../../mock/Focus_mode.json'
 
 const techStack = techData
 const SwiperAutoplay = Autoplay
+
+// Thought Widget State Management
+type ThoughtState = 'idle' | 'loading' | 'showing'
+
+interface Thought {
+  id: number
+  lines: string[]
+}
+
+const thoughtState = ref<ThoughtState>('idle')
+const currentThought = ref<Thought>({ id: 0, lines: [] })
+let lastThoughtId = 0
+
+// 隨機選擇思考句(避免連續重複)
+const getRandomThought = (): Thought => {
+  const availableThoughts = thoughtsData.thoughts.filter((t: Thought) => t.id !== lastThoughtId)
+  const randomThought = availableThoughts.length > 0 
+    ? availableThoughts[Math.floor(Math.random() * availableThoughts.length)]
+    : thoughtsData.thoughts[0]
+  
+  if (randomThought) {
+    lastThoughtId = randomThought.id
+    return randomThought
+  }
+  
+  // Fallback (should never happen if JSON is valid)
+  return { id: 0, lines: ['Something went wrong...'] }
+}
+
+// 處理點擊事件
+const handleThoughtClick = () => {
+  // 進入 loading 狀態
+  thoughtState.value = 'loading'
+  
+  // 0.5 秒後顯示思考句
+  setTimeout(() => {
+    currentThought.value = getRandomThought()
+    thoughtState.value = 'showing'
+  }, 500)
+}
 </script>

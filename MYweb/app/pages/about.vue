@@ -24,7 +24,7 @@
               <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
               Open to work
             </div>
-            <h2 class="text-white text-2xl font-bold leading-tight">John Doe</h2>
+            <h2 class="text-white text-2xl font-bold leading-tight">EY chen</h2>
             <p class="text-white/80 text-sm">Frontend Engineer</p>
           </div>
         </div>
@@ -32,11 +32,11 @@
           <div class="flex flex-wrap gap-2">
             <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-100 dark:bg-white/5 text-xs font-medium text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-white/5">
               <span class="material-symbols-outlined text-[16px]">location_on</span>
-              San Francisco
+              Taichung
             </div>
             <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-100 dark:bg-white/5 text-xs font-medium text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-white/5">
               <span class="material-symbols-outlined text-[16px]">language</span>
-              EN / ES
+              EN / TW
             </div>
           </div>
           <a class="w-full py-3 rounded-lg bg-slate-900 dark:bg-white text-white dark:text-black font-semibold text-center text-sm hover:opacity-90 transition-opacity flex items-center justify-center gap-2" href="#">
@@ -65,15 +65,14 @@
           <div>
             <p class="text-green-400 mb-1">➜  ~  whoami</p>
             <p class="leading-relaxed text-slate-100">
-              Hello! I'm a creative developer obsessed with smooth interactions. 
-              I bridge the gap between <span class="text-primary font-bold">design</span> and <span class="text-primary font-bold">engineering</span>. 
-              Currently building accessible web applications that feel alive.
+              你好！我是一名前端開發者，擅長在理性與直覺之間取得平衡，專注打造有<span class="text-primary font-bold">思考感</span>、<span class="text-primary font-bold">以人為核心</span> 
+              的互動介面。我遊走於 AI、網頁技術與設計的交會點，將想法轉化為實用且具態度的系統。受哲學影響，也重視清晰與真誠，我希望做出的作品，不只是好用，而是能陪人思考。
             </p>
           </div>
           <div>
             <p class="text-green-400 mb-1">➜  ~  cat mission.txt</p>
             <p class="leading-relaxed text-slate-400 italic">
-              "To build software that is not just functional, but delightful."
+              "打造不僅功能強大，而且令人愉悅的軟體."
             </p>
           </div>
           <div class="mt-auto">

@@ -16,7 +16,7 @@
     },
     {
         "name": "Nuxt",
-        "icon": "https://cdn.simpleicons.org/nuxtdotjs/00DC82",
+        "icon": "https://cdn.simpleicons.org/nuxt/00DC82",
         "color": "#00DC82"
     },
     {
@@ -30,9 +30,9 @@
         "color": "#06B6D4"
     },
     {
-        "name": "Figma",
-        "icon": "https://cdn.simpleicons.org/figma/F24E1E",
-        "color": "#F24E1E"
+        "name": "Html5",
+        "icon": "https://cdn.simpleicons.org/HTML5/E34F26",
+        "color": "#E34F26"
     },
     {
         "name": "Firebase",
@@ -45,8 +45,23 @@
         "color": "#339933"
     },
     {
-        "name": "D3.js",
-        "icon": "https://cdn.simpleicons.org/d3/F9A03C",
-        "color": "#F9A03C"
+        "name": "Sass",
+        "icon": "https://cdn.simpleicons.org/sass/CC669F",
+        "color": "#CC669F"
+    },
+    {
+        "name": "vercel",
+        "icon": "https://cdn.simpleicons.org/vercel/00DC82",
+        "color": "#00DC82"
+    },
+    {
+        "name": "github",
+        "icon": "https://cdn.simpleicons.org/github/181717",
+        "color": "#181717"
+    },
+    {
+        "name": "googlegemini",
+        "icon": "https://cdn.simpleicons.org/googlegemini/8E75B2",
+        "color": "#8E75B2"
     }
 ]

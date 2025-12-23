@@ -36,7 +36,7 @@
 
     <!-- Photo Widget (Vertical Card) -->
     <div class="md:col-span-1 md:row-span-2 relative glass-panel bg-white/40 dark:bg-black/40 rounded-3xl p-3 flex flex-col items-center justify-center group overflow-hidden">
-      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110 opacity-90" data-alt="Monochrome artistic portrait of a frontend engineer looking at the horizon" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCErdJzu-tHBAX1rRd0o45p40ARd7ApZaUAzPYZPf5DhWw5e5X_-r0TNIohCrftdPJPXXpZX5zKCbWAtFRQmOCNMbeVsgGf5tLzahObWuDWsoLqMrNQRqP95xjjDTx8eCncXWAF3cevsxpY5cCqNOKDp7W6Tr5BUCDQobbLKvhcM7Dfyv_DQwy-vvHhsudlQrL3IZM6OWGZQjGI9bTfAf9mvgcHyMUG8FEX4yAgad_GJX5Es3IDVaFTHcKbId2NTTS423VFzXEe2rhG');">
+      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110 opacity-90" data-alt="Monochrome artistic portrait of a frontend engineer looking at the horizon" style="background-image: url('../Background-photo.jpg');">
       </div>
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
       <!-- Glass Overlay Info -->
@@ -140,7 +140,7 @@
             1024: { slidesPerView: 6, spaceBetween: 40 }
           }"
           :loop="true"
-          :speed="3000"
+          :speed="1250"
           :autoplay="{
             delay: 0,
             disableOnInteraction: false,
@@ -150,7 +150,7 @@
         >
           <SwiperSlide v-for="tech in techStack" :key="tech.name">
             <div class="flex flex-col items-center gap-2 grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100 cursor-default group">
-              <div class="w-12 h-12 bg-white/40 dark:bg-black/20 rounded-xl flex items-center justify-center p-2.5 transition-transform group-hover:scale-110">
+              <div class="w-16 h-16 bg-white/40 dark:bg-black/20 rounded-xl flex items-center justify-center p-2.5 transition-transform group-hover:scale-110">
                 <img :src="tech.icon" :alt="tech.name" class="w-full h-full object-contain" />
               </div>
               <span class="text-[10px] font-bold">{{ tech.name }}</span>

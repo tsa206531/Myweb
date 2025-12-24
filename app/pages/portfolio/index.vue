@@ -7,7 +7,7 @@
           Selected Works
         </h1>
         <p class="text-xl text-[#8c8b5f] dark:text-gray-400 font-light leading-relaxed max-w-lg">
-          A curated collection of digital experiences, bridging the gap between functional design and frontend engineering.
+          精選作品，探索設計與前端工程之間的平衡
         </p>
       </div>
     </header>

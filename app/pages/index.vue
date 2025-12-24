@@ -202,10 +202,18 @@
         <h2 class="text-2xl md:text-3xl font-bold mb-2">已經有專案構想了嗎？</h2>
         <p class="text-slate-600 dark:text-slate-400">目前可自由接案，歡迎洽談新的合作機會。</p>
       </div> 
-      <button class="relative z-10 bg-[#38380e] hover:bg-[#787820] text-white dark:bg-primary dark:text-black dark:hover:bg-[#e6e205] font-bold text-lg px-8 py-4 rounded-full transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(249,245,6,0.4)] flex items-center gap-2 whitespace-nowrap">
-        Let's Chat
-        <span class="material-symbols-outlined">chat_bubble</span>
-      </button>
+          <NuxtLink
+            to="/contact"
+            class="relative z-10 bg-[#38380e] hover:bg-[#787820] text-white
+                  dark:bg-primary dark:text-black dark:hover:bg-[#e6e205]
+                  font-bold text-lg px-8 py-4 rounded-full transition-all
+                  hover:scale-105 active:scale-95
+                  shadow-[0_0_20px_rgba(249,245,6,0.4)]
+                  flex items-center gap-2 whitespace-nowrap"
+          >
+            Let's Chat
+            <span class="material-symbols-outlined">chat_bubble</span>
+          </NuxtLink>
       <!-- Decoration -->
       <div class="absolute -right-10 -bottom-20 w-64 h-64 bg-primary/20 rounded-full blur-[60px]"></div>
     </div>

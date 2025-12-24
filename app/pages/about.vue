@@ -6,7 +6,7 @@
         About <span class="text-slate-400 dark:text-slate-600">Me</span>.
       </h1>
       <p class="text-slate-500 dark:text-slate-400 text-lg md:text-xl max-w-2xl">
-        Crafting digital experiences with a focus on motion, aesthetics, and clean code.
+        將設計思維落實於前端工程的數位體驗開發者
       </p>
     </header>
 
@@ -39,7 +39,7 @@
               EN / TW
             </div>
           </div>
-          <a class="w-full py-3 rounded-lg bg-slate-900 dark:bg-white text-white dark:text-black font-semibold text-center text-sm hover:opacity-90 transition-opacity flex items-center justify-center gap-2" href="#">
+          <a class="w-full py-3 rounded-lg bg-slate-900 dark:bg-white text-white dark:text-black font-semibold text-center text-sm hover:opacity-90 transition-opacity flex items-center justify-center gap-2" href="https://www.yourator.co/r/71f10e99-cbc5-4cd8-91c4-636db45e2e51">
             Download CV
             <span class="material-symbols-outlined text-[18px]">download</span>
           </a>

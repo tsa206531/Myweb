@@ -2,100 +2,191 @@
   {
     "id": 1,
     "layout": "featured",
-    "title": "Nova Dashboard",
-    "category": "Fintech",
-    "description": "Real-time market data visualization platform",
-    "tags": ["React", "TypeScript", "D3.js", "Tailwind"],
-    "year": "2023",
-    "details": "A comprehensive overhaul of a financial data visualization platform. The primary goal was to improve rendering performance for real-time crypto and stock market data while maintaining a clean, accessible interface.",
+    "title": "UX3刀流2025活動網站",
+    "category": "New",
+    "description": "線下互動活動平台",
+    "tags": ["React", "TypeScript", "firebase", "Tailwind" , "cloudinary"],
+    "year": "2025/09",
+    "details": "本專案為「UX3 三刀流交流研討會」量身打造的互動名片系統，旨在透過數位化技術提升研討會現場的社交互動體驗。系統核心結合了現代化的網頁開發框架與即時雲端資料庫，提供參與者從下載設計模板、個人化名片製作上傳，到現場動態瀏覽與隨機配對抽卡的全方位服務。使用者介面採用直觀、充滿科技感的 3D 翻轉卡片效果與響應式佈局，確保在各類行動裝置與桌機上均能擁有流暢且具層次感的互動體驗。",
     "cols": "md:col-span-2 lg:col-span-2",
     "rows": "row-span-1 lg:row-span-2",
     "links": {
-      "demo": "https://example.com/nova",
-      "github": "https://github.com/username/nova-dashboard"
+      "demo": "https://flip-connect-murex.vercel.app/",
+      "github": "https://github.com/tsa206531/flip-connect"
     },
     "images": [
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCY6pQVOQKUhB-Kh4MoaU1NZmWun_DIAGajKow6HkWcBRUJ1mPiRNm4niffh-fEWVfaPfLYGnon9BrZVoQXeY_rLZEoEz4IVDU7jIGEJpAJVqihnMGM08XnAMwa6B5lr7eFA_dsZYiSoEs5_yBCvRj1DZVto3HTPY0xEPqhvlasxk1xZaboZfCnnf42P_aN1yHp2gj9c1eMcrUHCmDKOQ_tqbtgTo7rYyXQtPUKWlbOa9Vqsy-QJcv09-XUhkvb6_SXzgExO5cb9ocQ",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAlxxJwKzUB8EMowZz4rRx_QZ44Qyliq5Fs9S3BqJfPkFUMEhohD_XAQENefiuhrK_zbr3aAj621NOtyEnzoCdN2-Ltw3MNS0ri7p3MuWyRUvz7qnBrb35k8qpxlFysBHSJtDvNix-iOPXXsAzR56p8Qqpq_j8bK-dxF7vv1wmhjkXexktCmxjhy2zeTEUk_0HOotpq_Y1E4dG-Jj90KuJi7JvoFip6wpbj3UJhrkGukf86gqvIBTuM0OwMRNl3JzCbjPnRMfqLsetl",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCGph5NIt6-VW_SjhgOZWl6_nzt7NTuyRJEez84ji8KdsuIOxCw0W86De9oCEmHHulBo7nu8z8hm-FQeMiYO7f3P_df4PLdxzfGoKoLF-CRVJO5ENcpY9iIZYK7FmHTCzRA9jdQKfqV2Z3d-7H1kf6JKs4LOKWWmFjnXoyKjqYXwUP9Ay3IB2fJFV3jlVF0HCq0qORhTYAhaE0xhJUhabbeBXfoOzcGjbSjKDlH2a6KvRNfgdvWAJFv-ms8TKA9OgJBKmYBF6Z4hfKW"
+      "/Preview/UX3-0.jpg",
+      "/Preview/UX3-1.jpg",
+      "/Preview/UX3-4.jpg"
     ]
   },
   {
     "id": 2,
     "layout": "standard",
-    "title": "Lumina Gallery",
-    "category": "React Native",
+    "title": "末日廢土風氣象網站",
+    "category": "Next.js",
     "description": "Minimalist curated art gallery experience",
-    "tags": ["React Native", "Expo", "Reanimated"],
-    "year": "2023",
-    "details": "A mobile-first gallery experience designed to showcase digital art collections. Features smooth gesture-based navigation and an immersive viewing mode.",
+    "tags": ["Next16", "Tailwind", "Expo", "zeabur","CWA API","hexschool"],
+    "year": "2025/12",
+    "details": "本專案是一個具備強烈視覺風格的「台灣氣象終端系統」。設計理念以「末日啟示錄」與「粗獷主義」為核心，打造出一個宛如文明崩潰後重新運行的天氣顯示終端。技術上基於 Next.js 16 與 Tailwind  開發，整合中央氣象署（CWA）即時 API，讓使用者能透過互動式像素地圖，直觀且即時地掌握全台 22 縣市的天氣狀況。這不僅是一個工具軟體，更是一個結合 AI 共創與人文敘事的數位藝術作品。",
     "links": {
-      "demo": "https://example.com/lumina",
-      "github": "https://github.com/username/lumina-gallery"
+      "demo": "https://cwa-weather-frontend.vercel.app/",
+      "github": "https://github.com/tsa206531/CwaWeather-frontend"
     },
     "images": [
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCb_cyUI1BuKlhYd2d2GQS1Vgx4w9J-rTrbI2EcJweh19GGVgesee-0_jIddPJFooqnL7FUVCYje_RNmKHVrQo3QUuQLOWNAl8FMFZJtDbQp2QzqONVFrxqJorBcCcqWNQsY1ZDsuPbu6sxWhYjbED0mXVlb5sHAU0qgmg2qVaAi4yIH3igrc4I6PNeLjnTRbz9O0IyV45WXAeYcdlVDZ2H_77M-kx43CtCfyRIOh2YnZ4VPbJ1eAla7vyIemKoatgwKqwaZASoum6f",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuD6f4KP832g7FJDvBLZ8uXN28PqFiCBEIBE0KyLUCwQ22KviQ2r5-qVibYN-MyN5l_c1RdhwKhxMR1JLvUoMNPCHcvp3J3NxOa-68pcVb_ZdJEypcVsszyXdfc91WABjvF36Yx2-OcKmDZZXAhxvXWbMcgrHM7Fz2m8Q9nSTnCttRs5nn0EyTdq8W-AOX90raAUUYyAIazC75rcbSzoM03EoBl_eJbJMIgszkfdaS03Il8H621In_tJswc1qkyeEdBxFvaMFjtmLUHj",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAoLB0jiWD_ROZQBqw-I8Z63STb_YfTy9xS04qJAc_PbWS5qzNCvfYr9DahRgiRpF-so9nhK3ZA13kU72B_0X-1RR01q_9WqDqrlqFbmip_2it6qhfaoebYnQXjgTufFxgUiFadZ0M5jBiy_1j9_gHfnkCeYRIO-UXKdkEn-BCbTN3GPQ5ELSr8_oS04Zc21qi2h3AQ3aGimByJZy9ZnYy_-IdVWe4D-A4nB-1lIzNF_0Muma7oGKN9xjyQd5W45umjGgfHwSp1MKMF"
+      "/Preview/WEATHER TERMINAL-1.jpg",
+      "/Preview/WEATHER TERMINAL-2.jpg",
+      "/Preview/WEATHER TERMINAL-3.jpg"
     ]
   },
   {
     "id": 3,
     "layout": "standard",
-    "title": "Metrics SaaS",
-    "category": "Vue.js & Firebase",
-    "description": "Data analytics for small businesses",
-    "tags": ["Vue 3", "Firebase", "Chart.js"],
-    "year": "2022",
-    "details": "A lightweight analytics dashboard for SaaS founders. Focuses on key metrics like MRR, Churn, and LTV with a customizable drag-and-drop layout.",
+    "title": "ideabox",
+    "category": "Vue.js & SortableJS",
+    "description": "輕量級點子管理與任務調度工具",
+    "tags": ["Vue 3", "SortableJS","VueUse","Rwd"],
+    "year": "2024",
+    "details": "ideabox 是一個以 Vue 3 為基礎打造的輕量級點子管理與任務調度工具，主要目的是作為我練習拖拉互動(SortableJS)與前端狀態管理(VueUse)的實作案例。起因於自己在記錄靈感與安排待辦事項時，常需要一個夠直覺、無負擔的工具，因此決定動手實作一個符合個人使用習慣的小型專案。",
     "links": {
-      "demo": "https://example.com/metrics",
-      "github": "https://github.com/username/metrics-saas"
+      "demo": "https://ideabox-git-aimain8df0b27c0b64-yl-chens-projects.vercel.app/",
+      "github": "https://github.com/tsa206531/ideabox"
     },
     "images": [
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAlxxJwKzUB8EMowZz4rRx_QZ44Qyliq5Fs9S3BqJfPkFUMEhohD_XAQENefiuhrK_zbr3aAj621NOtyEnzoCdN2-Ltw3MNS0ri7p3MuWyRUvz7qnBrb35k8qpxlFysBHSJtDvNix-iOPXXsAzR56p8Qqpq_j8bK-dxF7vv1wmhjkXexktCmxjhy2zeTEUk_0HOotpq_Y1E4dG-Jj90KuJi7JvoFip6wpbj3UJhrkGukf86gqvIBTuM0OwMRNl3JzCbjPnRMfqLsetl",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCY6pQVOQKUhB-Kh4MoaU1NZmWun_DIAGajKow6HkWcBRUJ1mPiRNm4niffh-fEWVfaPfLYGnon9BrZVoQXeY_rLZEoEz4IVDU7jIGEJpAJVqihnMGM08XnAMwa6B5lr7eFA_dsZYiSoEs5_yBCvRj1DZVto3HTPY0xEPqhvlasxk1xZaboZfCnnf42P_aN1yHp2gj9c1eMcrUHCmDKOQ_tqbtgTo7rYyXQtPUKWlbOa9Vqsy-QJcv09-XUhkvb6_SXzgExO5cb9ocQ",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuD1sR2BybABTL7vIbMWOnojuyLkOtgKNhkChELNU094F0twUBJJzeeLfEVEqJXHrTSH9Ur53qOoVq8w9bBYOA1pH0_RpxNNzWhjUsG56siaxyOYb_X-I4fD7yVtHtLBUM5rr9TmeLPQ6ZonX1CLnMvZAyVNFripMrk-tQlPRvoKqeyIQUrIAZSYArntEivgork0bIhnH87IIWa-yaN2vpWuYf5nF8fNQzr8qTtdXuo7uLn02ohAt-70sm11kjtcjIZJBd0k9bHM4SxE"
+      "Preview/todolist-1.jpg",
+      "Preview/todolist-2.jpg"
     ]
   },
   {
     "id": 4,
     "layout": "split",
-    "title": "Design System \"Aether\"",
-    "category": "Figma",
-    "description": "Scalable UI kit for enterprise",
-    "tags": ["Figma", "Storybook", "Tokens"],
-    "year": "2023",
-    "details": "A comprehensive UI kit built for scalability and accessibility across 5 product lines. Includes a full token system, dark mode support, and strict accessibility guidelines.",
+    "title": "個人網頁V1",
+    "category": "Nuxt3",
+    "description": "個人網站",
+    "tags": ["Nuxt3", "Tailwind", "Swiper", "VueUse"],
+    "year": "2025/06",
+    "details": "本作品集網站是我第一次使用 Nuxt 3 開發的個人專案，主要目的是熟悉 Vue 3 生態系與現代前端開發流程。專案採用 Nuxt 3 + TypeScript，並以 Composition API 管理元件邏輯，讓程式結構更清楚且易於維護。樣式方面使用 Tailwind CSS 快速建構版面，整體設計偏簡單，視覺上仍有許多進步空間，但也讓我更理解響應式布局與 UI 組織方式。部分互動效果透過 Swiper.js 與 @vueuse/core 實作，並搭配 Heroicons、Simple Icons 與 Google Fonts 提升整體一致性。這個專案雖然畫面不算精緻，但對我來說是一個重要的起點，讓我實際累積了 Nuxt 3 與現代前端工具的實作經驗。",
     "cols": "md:col-span-2 lg:col-span-2",
     "links": {
-      "demo": "https://example.com/aether",
-      "github": "https://github.com/username/aether-design-system"
+      "demo": "https://personal-resume-two-sage.vercel.app/",
+      "github": "https://github.com/tsa206531/Personal-resume"
     },
     "images": [
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuD1sR2BybABTL7vIbMWOnojuyLkOtgKNhkChELNU094F0twUBJJzeeLfEVEqJXHrTSH9Ur53qOoVq8w9bBYOA1pH0_RpxNNzWhjUsG56siaxyOYb_X-I4fD7yVtHtLBUM5rr9TmeLPQ6ZonX1CLnMvZAyVNFripMrk-tQlPRvoKqeyIQUrIAZSYArntEivgork0bIhnH87IIWa-yaN2vpWuYf5nF8fNQzr8qTtdXuo7uLn02ohAt-70sm11kjtcjIZJBd0k9bHM4SxE",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCb_cyUI1BuKlhYd2d2GQS1Vgx4w9J-rTrbI2EcJweh19GGVgesee-0_jIddPJFooqnL7FUVCYje_RNmKHVrQo3QUuQLOWNAl8FMFZJtDbQp2QzqONVFrxqJorBcCcqWNQsY1ZDsuPbu6sxWhYjbED0mXVlb5sHAU0qgmg2qVaAi4yIH3igrc4I6PNeLjnTRbz9O0IyV45WXAeYcdlVDZ2H_77M-kx43CtCfyRIOh2YnZ4VPbJ1eAla7vyIemKoatgwKqwaZASoum6f",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuD6f4KP832g7FJDvBLZ8uXN28PqFiCBEIBE0KyLUCwQ22KviQ2r5-qVibYN-MyN5l_c1RdhwKhxMR1JLvUoMNPCHcvp3J3NxOa-68pcVb_ZdJEypcVsszyXdfc91WABjvF36Yx2-OcKmDZZXAhxvXWbMcgrHM7Fz2m8Q9nSTnCttRs5nn0EyTdq8W-AOX90raAUUYyAIazC75rcbSzoM03EoBl_eJbJMIgszkfdaS03Il8H621In_tJswc1qkyeEdBxFvaMFjtmLUHj"
+      "Preview/personal-resume01V-1.jpg",
+      "Preview/personal-resume01V-2.jpg",
+      "Preview/personal-resume01V-3.jpg"
     ]
   },
   {
     "id": 5,
     "layout": "standard",
-    "title": "Playground",
-    "category": "Experimental CSS",
-    "description": "Creative code experiments",
-    "tags": ["CSS", "Animation", "WebGL"],
-    "year": "2024",
-    "details": "A collection of creative coding experiments exploring the limits of modern CSS and WebGL. Includes fluid simulations, 3D transformations, and interactive particles.",
+    "title": "窩窩家居",
+    "category": "使用 js、C3、api購物車包含前後台。",
+    "description": "整合家具電商前台與訂單管理後台的網頁應用程式",
+    "tags": ["Vanilla JS", "HTML", "CSS", "JavaScript"],
+    "year": "2023",
+    "details": "窩窩家居 (WOWOROOM) 是一個整合家具電商前台與訂單管理後台的網頁應用程式。該專案採用傳統的網頁開發架構（Vanilla JS），透過簡單直觀的介面，提供使用者瀏覽商品、加入購物車及下單的功能，並為管理者提供營收分析圖表與訂單管理機制。整體開發方向聚焦於前後端的分離協作，利用六角學院提供的 API 服務實現動態資料存取。",
     "links": {
-      "demo": "https://example.com/playground",
-      "github": "https://github.com/username/css-playground"
+      "demo": "https://woworoom-yl-chens-projects.vercel.app/",
+      "github": "https://github.com/tsa206531/woworoom"
     },
     "images": [
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuD6f4KP832g7FJDvBLZ8uXN28PqFiCBEIBE0KyLUCwQ22KviQ2r5-qVibYN-MyN5l_c1RdhwKhxMR1JLvUoMNPCHcvp3J3NxOa-68pcVb_ZdJEypcVsszyXdfc91WABjvF36Yx2-OcKmDZZXAhxvXWbMcgrHM7Fz2m8Q9nSTnCttRs5nn0EyTdq8W-AOX90raAUUYyAIazC75rcbSzoM03EoBl_eJbJMIgszkfdaS03Il8H621In_tJswc1qkyeEdBxFvaMFjtmLUHj",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCY6pQVOQKUhB-Kh4MoaU1NZmWun_DIAGajKow6HkWcBRUJ1mPiRNm4niffh-fEWVfaPfLYGnon9BrZVoQXeY_rLZEoEz4IVDU7jIGEJpAJVqihnMGM08XnAMwa6B5lr7eFA_dsZYiSoEs5_yBCvRj1DZVto3HTPY0xEPqhvlasxk1xZaboZfCnnf42P_aN1yHp2gj9c1eMcrUHCmDKOQ_tqbtgTo7rYyXQtPUKWlbOa9Vqsy-QJcv09-XUhkvb6_SXzgExO5cb9ocQ",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCY6pQVOQKUhB-Kh4MoaU1NZmWun_DIAGajKow6HkWcBRUJ1mPiRNm4niffh-fEWVfaPfLYGnon9BrZVoXXeY_rLZEoEz4IVDU7jIGEJpAJVqihnMGM08XnAMwa6B5lr7eFA_dsZYiSoEs5_yBCvRj1DZVto3HTPY0xEPqhvlasxk1xZaboZfCnnf42P_aN1yHp2gj9c1eMcrUHCmDKOQ_tqbtgTo7rYyXQtPUKWlbOa9Vqsy-QJcv09-XUhkvb6_SXzgExO5cb9ocQ",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAlxxJwKzUB8EMowZz4rRx_QZ44Qyliq5Fs9S3BqJfPkFUMEhohD_XAQENefiuhrK_zbr3aAj621NOtyEnzoCdN2-Ltw3MNS0ri7p3MuWyRUvz7qnBrb35k8qpxlFysBHSJtDvNix-iOPXXsAzR56p8Qqpq_j8bK-dxF7vv1wmhjkXexktCmxjhy2zeTEUk_0HOotpq_Y1E4dG-Jj90KuJi7JvoFip6wpbj3UJhrkGukf86gqvIBTuM0OwMRNl3JzCbjPnRMfqLsetl"
+      "Preview/woworoom-1.jpg",
+      "Preview/woworoom-2.jpg",
+      "Preview/woworoom-3.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "layout": "standard",
+    "title": "前端Blog切版",
+    "category": "bootstrap5 切版",
+    "description": "前端Blog切版",
+    "tags": ["hexschool", "bootstrap5", "Rwd"],
+    "year": "2025",
+    "details": "六角學院 30 天軟體工程師體驗營｜2025 最終任務",
+    "links": {
+      "demo": "https://over-task25.vercel.app/",
+      "github": "https://github.com/tsa206531/OverTask25"
+    },
+    "images": [
+      "Preview/25overtask-blog-1.jpg ",
+      "Preview/25overtask-blog-2.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "layout": "standard",
+    "title": "線上學習平台(施工中)",
+    "category": "(施工中)",
+    "description": "個人網站",
+    "tags": ["Nuxt3", "Tailwind", "Swiper", "VueUse"],
+    "year": "2025/11",
+    "details": "線上學習平台(施工中)。",
+    "cols": "md:col-span-2 lg:col-span-2",
+    "links": {
+      "demo": "#",
+      "github": "#"
+    },
+    "images": [
+      "#",
+      "#",
+      "#"
+    ]
+  },
+  {
+    "id": 8,
+    "layout": "standard",
+    "title": "計算機",
+    "category": "JS",
+    "description": "前端開發Blog切版練習",
+    "tags": ["HTML", "css ", "JavaScript"],
+    "year": "2025",
+    "details": "練習JS製作計算機",
+    "links": {
+      "demo": "https://small-abacus.vercel.app/",
+      "github": "https://github.com/tsa206531/Small-abacus"
+    },
+    "images": [
+      "Preview/calculator-1.jpg"
+      
+    ]
+  },
+  {
+    "id": 9,
+    "layout": "standard",
+    "title": "tailwindcss卡片切版練習",
+    "category": "tailwindcss",
+    "description": "",
+    "tags": ["HTML", "css ", "Tailwind"],
+    "year": "2024",
+    "details": "tailwindcss卡片切版練習",
+    "links": {
+      "demo": "https://codepen.io/EY-chen/full/bGJPWGw",
+      "github": "#"
+    },
+    "images": [
+      "Preview/24tailwindcss-Card-tast.jpg"
+      
+    ]
+  },
+  {
+    "id": 10,
+    "layout": "standard",
+    "title": "Bst5 格線練習",
+    "category": "bootstrap5",
+    "description": "前端開發Blog切版練習",
+    "tags": ["HTML", "css ", "bootstrap5","Grid"],
+    "year": "2023",
+    "details": "練習格線系統",
+    "links": {
+      "demo": "https://codepen.io/EY-chen/full/yLQmeRG",
+      "github": "#"
+    },
+    "images": [
+      "Preview/23Bts5- Grid-test.jpg"
+      
     ]
   }
+
 ]

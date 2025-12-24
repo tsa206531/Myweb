@@ -161,7 +161,7 @@
     </div>
 
     <!-- Project Card 1 -->
-    <div class="md:col-span-1 glass-panel bg-white/50 dark:bg-[#1a1a1a] rounded-3xl p-4 flex flex-col gap-3 group hover:bg-white/80 dark:hover:bg-[#252525] transition-all duration-300">
+    <!-- <div class="md:col-span-1 glass-panel bg-white/50 dark:bg-[#1a1a1a] rounded-3xl p-4 flex flex-col gap-3 group hover:bg-white/80 dark:hover:bg-[#252525] transition-all duration-300">
       <div class="w-full aspect-video bg-cover bg-center rounded-2xl relative overflow-hidden" data-alt="Abstract minimalist dashboard interface with charts and sidebar" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDhprifmyuaE2pn4Cjze3x0rYA8B98078IO7gtImycQ3nhpsFAJj5dEeEfOhNz0ZQpL0fskjikxdhV82KBZBKwG365Lj8waIua1pKbngkGs4NazaZPCmgAn2M7XbLwiA6Au7gVmQivg_Ae0yvrJYUh94GwsKVRVrU0zg35XSxp1E-3MblZeZNHuRumv5eGpZop4EDoihao05M6rN2yKY3bgQ59u_zeCmbijKBPJSPGznoaYdyKzrtEnXLj2akRHjx22AbEIoPkEBhxn');">
         <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
       </div>
@@ -176,10 +176,10 @@
           <span class="px-2 py-1 bg-slate-100 dark:bg-slate-800 rounded-md text-[10px] font-mono font-medium text-slate-600 dark:text-slate-300">D3</span>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Project Card 2 -->
-    <div class="md:col-span-1 glass-panel bg-white/50 dark:bg-[#1a1a1a] rounded-3xl p-4 flex flex-col gap-3 group hover:bg-white/80 dark:hover:bg-[#252525] transition-all duration-300">
+    <!-- <div class="md:col-span-1 glass-panel bg-white/50 dark:bg-[#1a1a1a] rounded-3xl p-4 flex flex-col gap-3 group hover:bg-white/80 dark:hover:bg-[#252525] transition-all duration-300">
       <div class="w-full aspect-video bg-cover bg-center rounded-2xl relative overflow-hidden" data-alt="Modern clean e-commerce product page layout" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDqxcz7CdhVUvmS0k1u5EvuytCJsYl_gNqEHkIhCBwT5b_93-Oml1coIN6jPGn02WNc_AIjPAwljyOXk5fDNphePL9NmTpPyIx0tvVPtSulLUDdqHGmH66xeO4Xgwge9az6k3OXKeOegEldqNUmYiE96sRuEMU-PL0e49u7QVzDFSkjGmD3GvOJ0UKktvyvUCSuclrrtMyjpnLuVn_wt-82GHrSAWJfw9Zk1fO5-oTNHASG1Dhc1dfv1u9_PAve8vrDanFl3QV0rMNM');">
         <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
       </div>
@@ -194,7 +194,7 @@
           <span class="px-2 py-1 bg-slate-100 dark:bg-slate-800 rounded-md text-[10px] font-mono font-medium text-slate-600 dark:text-slate-300">Stripe</span>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- CTA Card -->
     <div class="md:col-span-2 flex flex-col md:flex-row gap-6 glass-panel bg-white/40 dark:bg-[#1e1e1e]/40 rounded-3xl p-8 items-center justify-between text-center md:text-left relative overflow-hidden">

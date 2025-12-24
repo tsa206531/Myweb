@@ -20,12 +20,12 @@
           Work
         </span>
       </NuxtLink>
-      <NuxtLink to="/articles" class="group relative flex items-center justify-center w-11 h-11 rounded-full hover:bg-primary/20 transition-colors" active-class="bg-primary/20">
+      <!-- <NuxtLink to="/articles" class="group relative flex items-center justify-center w-11 h-11 rounded-full hover:bg-primary/20 transition-colors" active-class="bg-primary/20">
         <span class="material-symbols-outlined text-slate-800 dark:text-slate-200 group-hover:text-primary transition-colors">article</span>
         <span class="absolute right-full mr-4 bg-white dark:bg-zinc-800 text-slate-900 dark:text-white text-xs font-bold py-1 px-3 rounded-full opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 pointer-events-none shadow-lg whitespace-nowrap">
           Articles
         </span>
-      </NuxtLink>
+      </NuxtLink> -->
       <NuxtLink to="/contact" class="group relative flex items-center justify-center w-11 h-11 rounded-full hover:bg-primary/20 transition-colors" active-class="bg-primary/20">
         <span class="material-symbols-outlined text-slate-800 dark:text-slate-200 group-hover:text-primary transition-colors">mail</span>
 

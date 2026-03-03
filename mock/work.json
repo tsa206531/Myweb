@@ -23,6 +23,70 @@
   {
     "id": 2,
     "layout": "standard",
+    "title": "Limina ⏳",
+    "category": "Chrome Extension",
+    "description": "生產力專注計時器與網站封鎖工具",
+    "tags": ["Vue 3", "TypeScript", "Vite", "Tailwind CSS", "Pinia", "Chart.js"],
+    "year": "2026",
+    "details": "Limina 是一款專為幫助您重拾專注力、停止在干擾網站上浪費時間而設計的 Chrome 擴充功能。它作為一個嚴格的生產力計時器，採用了「白名單優先」的封鎖引擎。擁有現代化的玻璃擬物化 (Glassmorphism) 介面、可自訂的設定以及本地數據統計，支援嚴格模式與自由時間模式，並將每日專注趨勢視覺化。",
+    
+    "rows": "row-span-1 lg:row-span-2",
+    "links": {
+      "demo": "https://github.com/tsa206531/Limina",
+      "github": "https://github.com/tsa206531/Limina"
+    },
+    "images": [
+      "https://raw.githubusercontent.com/tsa206531/Limina/refs/heads/main/img/02.jpg",
+      "https://raw.githubusercontent.com/tsa206531/Limina/refs/heads/main/img/01.jpg",
+      "https://raw.githubusercontent.com/tsa206531/Limina/refs/heads/main/img/03.jpg",
+      "https://raw.githubusercontent.com/tsa206531/Limina/refs/heads/main/img/04.jpg",
+      "https://raw.githubusercontent.com/tsa206531/Limina/refs/heads/main/img/05.jpg"
+
+    ]
+  },
+  {
+    "id": 3,
+    "layout": "standard",
+    "title": "PromptBox",
+    "category": "Desktop App",
+    "description": "專為 AI 工作者打造的 Prompt 管理工具",
+    "tags": ["Electron", "Vue 3", "Vite", "Tailwind CSS", "Pinia", "SQLite"],
+    "year": "2026",
+    "details": "PromptBox 是一個基於 Electron 的本地端桌面應用程式，專為 AI 工作者打造，幫助您高效管理和使用 AI Prompts。核心功能包含多層資料夾分類、智慧搜尋、一鍵複製、我的最愛、Markdown 支援，以及動態變數替換 (Variables Template) 提升重用性，並支援深色/淺色模式。",
+    "links": {
+      "demo": "https://github.com/tsa206531/PromptBox",
+      "github": "https://github.com/tsa206531/PromptBox"
+    },
+    "images": [
+      "https://raw.githubusercontent.com/tsa206531/PromptBox/main/img/01.jpg",
+      "https://raw.githubusercontent.com/tsa206531/PromptBox/main/img/02.jpg",
+      "https://raw.githubusercontent.com/tsa206531/PromptBox/main/img/03.jpg",
+      "https://raw.githubusercontent.com/tsa206531/PromptBox/main/img/04.jpg"
+
+    ]
+  },
+  {
+    "id": 4,
+    "layout": "standard",
+    "title": "前端面試題卡片系統",
+    "category": "Nuxt 3",
+    "description": "前端面試題隨機抽測與翻轉卡片系統",
+    "tags": ["Nuxt 3", "Vue 3", "Tailwind CSS", "Markdown"],
+    "year": "2025",
+    "details": "設計為前端工程師面試準備的隨機抽題測驗系統。每道題目以卡片形式呈現，先思考答案，點擊翻轉即可對照參考解答。支援分類篩選與關鍵字搜尋，題目與解答皆支援 Markdown 渲染及程式碼高亮 (Shiki)，並採用現代化毛玻璃 (Glassmorphism) UI 與流暢翻轉動畫。",
+    "links": {
+      "demo": "https://github.com/tsa206531/Frontend-interview-question",
+      "github": "https://github.com/tsa206531/Frontend-interview-question"
+    },
+    "images": [
+      "https://raw.githubusercontent.com/tsa206531/Frontend-interview-question/master/img/01.jpg",
+      "https://raw.githubusercontent.com/tsa206531/Frontend-interview-question/master/img/02.jpg",
+      "https://raw.githubusercontent.com/tsa206531/Frontend-interview-question/master/img/03.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "layout": "standard",
     "title": "末日廢土風氣象網站",
     "category": "Next.js",
     "description": "Minimalist curated art gallery experience",
@@ -40,7 +104,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 6,
     "layout": "standard",
     "title": "ideabox",
     "category": "Vue.js & SortableJS",
@@ -58,7 +122,29 @@
     ]
   },
   {
-    "id": 4,
+    "id": 7,
+    "layout": "standard",
+    "title": "線上學習平台",
+    "category": "Next.js & Spring Boot",
+    "description": "線上學習平台",
+    "tags": ["Next.js 16", "React", "Tailwind CSS", "Java 21", "Spring Boot", "PostgreSQL"],
+    "year": "2025/11",
+    "details": "整合前端 (Next.js) 與後端 (Spring Boot) 的線上學習平台專案。前端採用 Tailwind CSS、Radix UI 與 React Hook Form，並實作圖表與輪播。後端具備 PostgreSQL 資料庫、JWT 驗證及 Google OAuth2 登入，並透過 Docker 化部署架構。",
+    "cols": "md:col-span-2 lg:col-span-2",
+    "links": {
+      "demo": "https://github.com/tsa206531/practice---Gamified-learning-platform",
+      "github": "https://github.com/tsa206531/practice---Gamified-learning-platform"
+    },
+    "images": [
+      "https://raw.githubusercontent.com/tsa206531/practice---Gamified-learning-platform/main/img/01.jpg",
+      "https://raw.githubusercontent.com/tsa206531/practice---Gamified-learning-platform/main/img/02.jpg",
+      "https://raw.githubusercontent.com/tsa206531/practice---Gamified-learning-platform/main/img/03.jpg",
+      "https://raw.githubusercontent.com/tsa206531/practice---Gamified-learning-platform/main/img/04.jpg",
+      "https://raw.githubusercontent.com/tsa206531/practice---Gamified-learning-platform/main/img/05.jpg"
+    ]
+  },
+  {
+    "id": 8,
     "layout": "split",
     "title": "個人網頁V1",
     "category": "Nuxt3",
@@ -78,7 +164,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 9,
     "layout": "standard",
     "title": "窩窩家居",
     "category": "使用 js、C3、api購物車包含前後台。",
@@ -97,7 +183,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 10,
     "layout": "standard",
     "title": "前端Blog切版",
     "category": "bootstrap5 切版",
@@ -115,27 +201,7 @@
     ]
   },
   {
-    "id": 7,
-    "layout": "standard",
-    "title": "線上學習平台(施工中)",
-    "category": "(施工中)",
-    "description": "個人網站",
-    "tags": ["Nuxt3", "Tailwind", "Swiper", "VueUse"],
-    "year": "2025/11",
-    "details": "線上學習平台(施工中)。",
-    "cols": "md:col-span-2 lg:col-span-2",
-    "links": {
-      "demo": "#",
-      "github": "#"
-    },
-    "images": [
-      "#",
-      "#",
-      "#"
-    ]
-  },
-  {
-    "id": 8,
+    "id": 11,
     "layout": "standard",
     "title": "計算機",
     "category": "JS",
@@ -149,11 +215,10 @@
     },
     "images": [
       "Preview/calculator-1.jpg"
-      
     ]
   },
   {
-    "id": 9,
+    "id": 12,
     "layout": "standard",
     "title": "tailwindcss卡片切版練習",
     "category": "tailwindcss",
@@ -167,11 +232,10 @@
     },
     "images": [
       "Preview/24tailwindcss-Card-tast.jpg"
-      
     ]
   },
   {
-    "id": 10,
+    "id": 13,
     "layout": "standard",
     "title": "Bst5 格線練習",
     "category": "bootstrap5",
@@ -185,8 +249,6 @@
     },
     "images": [
       "Preview/23Bts5- Grid-test.jpg"
-      
     ]
   }
-
 ]

@@ -14,6 +14,24 @@
   body {
     @apply bg-background-light dark:bg-background-dark font-display text-[#181811] dark:text-[#e0e0e0] antialiased overflow-x-hidden selection:bg-primary selection:text-black;
   }
+
+  /* 鍵盤操作時顯示清楚的焦點框（滑鼠點擊不會出現） */
+  :focus-visible {
+    outline: 2px solid rgb(var(--color-primary));
+    outline-offset: 3px;
+  }
+
+  /* 使用者系統開啟「減少動態效果」時，關閉動畫與過場 */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
 }
 
 @layer components {
@@ -21,11 +39,8 @@
   /* Custom Utilities for Glassmorphism */
   .glass-panel {
     @apply backdrop-blur-xl border border-glass-border shadow-glass;
-    /* Fallbacks or specific overrides from example CSS */
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    background: var(--glass-bg);
-    /* Use theme color or custom var */
   }
 
   .dark .glass-panel {

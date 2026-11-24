@@ -6,7 +6,7 @@
         About <span class="text-slate-400 dark:text-slate-600">Me</span>.
       </h1>
       <p class="text-slate-500 dark:text-slate-400 text-lg md:text-xl max-w-2xl">
-        將設計思維落實於前端工程的數位體驗開發者
+        將設計思維落實於全端工程的 AI Native
       </p>
     </header>
 
@@ -18,14 +18,14 @@
         <div class="relative w-full aspect-[4/5] lg:h-3/4 rounded-lg overflow-hidden group">
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10"></div>
           <!-- Profile Image -->
-          <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Portrait of a young man smiling in a casual setting" style="background-image: url('../Front-view.png');"></div>
+          <img src="/Front-view.jpg" alt="EY Chen 的插畫肖像" width="768" height="1152" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           <div class="absolute bottom-4 left-4 z-20">
             <div class="bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-3 py-1 text-xs font-medium text-white mb-2 inline-flex items-center gap-1">
               <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
               Open to work
             </div>
-            <h2 class="text-white text-2xl font-bold leading-tight">EY chen</h2>
-            <p class="text-white/80 text-sm">Frontend Engineer</p>
+            <h2 class="text-white text-2xl font-bold leading-tight">EY Chen</h2>
+            <p class="text-white/80 text-sm">Full-Stack Engineer</p>
           </div>
         </div>
         <div class="p-4 flex flex-col justify-between grow gap-4">
@@ -39,9 +39,9 @@
               EN / TW
             </div>
           </div>
-          <a class="w-full py-3 rounded-lg bg-slate-900 dark:bg-white text-white dark:text-black font-semibold text-center text-sm hover:opacity-90 transition-opacity flex items-center justify-center gap-2" href="https://www.yourator.co/r/71f10e99-cbc5-4cd8-91c4-636db45e2e51">
+          <a class="w-full py-3 rounded-lg bg-slate-900 dark:bg-white text-white dark:text-black font-semibold text-center text-sm hover:opacity-90 transition-opacity flex items-center justify-center gap-2" href="https://www.yourator.co/r/71f10e99-cbc5-4cd8-91c4-636db45e2e51" target="_blank" rel="noopener noreferrer">
             Download CV
-            <span class="material-symbols-outlined text-[18px]">download</span>
+            <span aria-hidden="true" class="material-symbols-outlined text-[18px]">download</span>
           </a>
         </div>
       </div>
@@ -65,7 +65,7 @@
           <div>
             <p class="text-green-400 mb-1">➜  ~  whoami</p>
             <p class="leading-relaxed text-slate-100">
-              你好！我是一名前端開發者，擅長在理性與直覺之間取得平衡，專注打造有<span class="text-primary font-bold">思考感</span>、<span class="text-primary font-bold">以人為核心</span> 
+              你好！我是一名全端開發者，擅長在理性與直覺之間取得平衡，專注打造有<span class="text-primary font-bold">思考感</span>、<span class="text-primary font-bold">以人為核心</span> 
               的互動介面。我遊走於 AI、網頁技術與設計的交會點，將想法轉化為實用且具態度的系統。受哲學影響，也重視清晰與真誠，我希望做出的作品，不只是好用，而是能陪人思考。
             </p>
           </div>
@@ -97,8 +97,7 @@
             <div class="absolute left-0 top-1.5 w-4 h-4 rounded-full border-[3px] border-white dark:border-slate-800 bg-primary z-10 shadow-[0_0_0_2px_rgba(249,245,6,0.2)]"></div>
             <div class="flex flex-col">
               <span class="text-xs font-semibold text-primary uppercase tracking-wide">Present</span>
-              <h4 class="font-bold text-slate-900 dark:text-white mt-1">Freelance Frontend Developer</h4>
-              <p class="text-sm text-slate-500 dark:text-slate-400"></p>
+              <h4 class="font-bold text-slate-900 dark:text-white mt-1">Freelance Full-Stack Developer</h4>
             </div>
           </div>
           
@@ -107,7 +106,6 @@
             <div class="flex flex-col">
               <span class="text-xs font-medium text-slate-400 uppercase tracking-wide">2025</span>
               <h4 class="font-bold text-slate-800 dark:text-slate-200 mt-1">Learning Nuxt 3</h4>
-              <p class="text-sm text-slate-500 dark:text-slate-400"></p>
             </div>
           </div>
 
@@ -159,7 +157,7 @@
       </div>
 
       <!-- 5. Fun Facts (Center Bottom Right) -->
-      <div class="glass-panel hover:shadow-glass-hover transition-all duration-300 rounded-xl col-span-1 md:col-span-1 lg:col-span-3 p-6 flex flex-col justify-between group cursor-pointer overflow-hidden relative">
+      <div class="glass-panel hover:shadow-glass-hover transition-all duration-300 rounded-xl col-span-1 md:col-span-1 lg:col-span-3 p-6 flex flex-col justify-between group overflow-hidden relative">
         <!-- Decorative background blob -->
         <div class="absolute -right-8 -top-8 w-32 h-32 bg-primary/20 rounded-full blur-3xl group-hover:bg-primary/30 transition-all"></div>
         <div class="flex items-center justify-between z-10">
@@ -168,14 +166,9 @@
         </div>
         <div class="mt-4 z-10">
           <p class="text-xl font-bold leading-tight text-slate-800 dark:text-white">
-            專注學習 <br/>
-            <span class="text-slate-400 decoration-primary decoration-2 underline underline-offset-3">Node.js  &  TypeScript</span><br> 逐步邁向全端工程師
+            專注深入 <br/>
+            <span class="text-slate-400 decoration-primary decoration-2 underline underline-offset-3">AI Agent & LLM 應用</span><br> 打造 AI Native 產品體驗
           </p>
-        </div>
-        <div class="mt-4 flex gap-1 z-10">
-          <div class="w-2 h-2 rounded-full bg-slate-800 dark:bg-white"></div>
-          <div class="w-2 h-2 rounded-full bg-slate-300 dark:bg-white/20"></div>
-          <div class="w-2 h-2 rounded-full bg-slate-300 dark:bg-white/20"></div>
         </div>
       </div>
 

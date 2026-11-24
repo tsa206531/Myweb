@@ -83,7 +83,7 @@ const getIconColorClass = (color: string) => {
         <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-[#181811] dark:text-white leading-tight">
           Thought Stream
         </h1>
-        <p class="text-lg md:text-xl text-[#8c8b5f] dark:text-gray-400 font-normal leading-relaxed max-w-xl">
+        <p class="text-lg md:text-xl text-[#6b6a45] dark:text-gray-400 font-normal leading-relaxed max-w-xl">
           A curated collection of thoughts on frontend architecture, UI design systems, and the pursuit of digital craftsmanship.
         </p>
       </div>
@@ -94,11 +94,11 @@ const getIconColorClass = (color: string) => {
       <!-- Search Bar -->
       <div class="relative w-full md:w-96 group">
         <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-          <span class="material-symbols-outlined text-[#8c8b5f] dark:text-gray-400 group-focus-within:text-primary transition-colors">search</span>
+          <span class="material-symbols-outlined text-[#6b6a45] dark:text-gray-400 group-focus-within:text-primary transition-colors">search</span>
         </div>
         <input 
           v-model="searchQuery"
-          class="block w-full pl-12 pr-4 py-3.5 rounded-2xl border border-transparent bg-white/50 dark:bg-black/20 backdrop-blur-md focus:bg-white/80 dark:focus:bg-black/40 focus:border-primary/50 focus:ring-0 text-[#181811] dark:text-white placeholder-[#8c8b5f] dark:placeholder-gray-500 transition-all duration-300 shadow-sm outline-none" 
+          class="block w-full pl-12 pr-4 py-3.5 rounded-2xl border border-transparent bg-white/50 dark:bg-black/20 backdrop-blur-md focus:bg-white/80 dark:focus:bg-black/40 focus:border-primary/50 focus:ring-0 text-[#181811] dark:text-white placeholder-[#6b6a45] dark:placeholder-gray-500 transition-all duration-300 shadow-sm outline-none" 
           placeholder="Search for keywords..." 
           type="text"
         />
@@ -143,12 +143,12 @@ const getIconColorClass = (color: string) => {
             <div class="flex flex-col gap-4">
               <div class="flex items-center gap-3">
                 <span class="px-3 py-1 rounded-full bg-primary/20 text-yellow-800 dark:text-yellow-200 text-xs font-bold uppercase tracking-wider">Featured</span>
-                <span class="text-sm text-[#8c8b5f] dark:text-gray-400">{{ article.date }}</span>
+                <span class="text-sm text-[#6b6a45] dark:text-gray-400">{{ article.date }}</span>
               </div>
               <h2 class="text-2xl md:text-3xl font-bold text-[#181811] dark:text-white leading-tight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#181811] group-hover:to-[#555] dark:group-hover:from-white dark:group-hover:to-gray-400 transition-all">
                 {{ article.title }}
               </h2>
-              <p class="text-[#8c8b5f] dark:text-gray-300 line-clamp-3">
+              <p class="text-[#6b6a45] dark:text-gray-300 line-clamp-3">
                 {{ article.description }}
               </p>
             </div>
@@ -177,11 +177,11 @@ const getIconColorClass = (color: string) => {
               <h2 class="text-xl font-bold text-[#181811] dark:text-white leading-snug mb-2">
                 {{ article.title }}
               </h2>
-              <p class="text-sm text-[#8c8b5f] dark:text-gray-400 line-clamp-2">
+              <p class="text-sm text-[#6b6a45] dark:text-gray-400 line-clamp-2">
                 {{ article.description }}
               </p>
             </div>
-            <div class="pt-4 text-xs text-[#8c8b5f] dark:text-gray-500">{{ article.date }} • {{ article.readTime }}</div>
+            <div class="pt-4 text-xs text-[#6b6a45] dark:text-gray-500">{{ article.date }} • {{ article.readTime }}</div>
           </div>
         </NuxtLink>
 
@@ -232,12 +232,12 @@ const getIconColorClass = (color: string) => {
             <h2 class="text-xl font-bold text-[#181811] dark:text-white leading-snug">
               {{ article.title }}
             </h2>
-            <p class="text-sm text-[#8c8b5f] dark:text-gray-400">
+            <p class="text-sm text-[#6b6a45] dark:text-gray-400">
               {{ article.description }}
             </p>
           </div>
           <div class="flex items-center justify-between mt-6 pt-6 border-t border-black/5 dark:border-white/5">
-            <span class="text-xs font-medium text-[#8c8b5f] dark:text-gray-500">{{ article.readTime }}</span>
+            <span class="text-xs font-medium text-[#6b6a45] dark:text-gray-500">{{ article.readTime }}</span>
             <div class="w-8 h-8 rounded-full bg-white dark:bg-white/10 flex items-center justify-center group-hover:bg-primary group-hover:text-black transition-colors">
               <span class="material-symbols-outlined text-sm transition-transform duration-300 group-hover:rotate-45">arrow_outward</span>
             </div>

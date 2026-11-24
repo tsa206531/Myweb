@@ -7,7 +7,7 @@
     <div class="relative z-10 flex min-h-screen p-4 md:p-8 lg:p-12 md:pr-32 lg:pr-40 gap-6 max-w-[1600px] mx-auto">
       <!-- Main Content -->
       <div class="flex flex-col w-full pb-24 md:pb-0">
-        <NuxtPage />
+        <slot />
         <Footer />
       </div>
 

@@ -16,16 +16,16 @@
       </div>
 
       <a href="mailto:tsa206531@gmail.com" class="group relative inline-flex items-center gap-3 px-8 py-4 bg-[#38380e] hover:bg-[#787820] text-white dark:bg-primary dark:text-black dark:hover:bg-[#e6e205] font-bold text-lg rounded-full transition-all hover:scale-105 shadow-[0_0_20px_rgba(249,245,6,0.4)]">
-        <span class="material-symbols-outlined">mail</span>
+        <span aria-hidden="true" class="material-symbols-outlined">mail</span>
         tsa206531@gmail.com
       </a>
 
       <div class="flex gap-6 mt-4">
-        <a href="#" class="p-4 rounded-full glass-panel bg-white/40 dark:bg-white/5 hover:bg-white/60 dark:hover:bg-white/10 transition-colors group">
-          <span class="material-symbols-outlined text-2xl text-slate-700 dark:text-slate-300 group-hover:text-primary transition-colors">code</span>
+        <a href="https://github.com/tsa206531" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="p-4 rounded-full glass-panel bg-white/40 dark:bg-white/5 hover:bg-white/60 dark:hover:bg-white/10 transition-colors group">
+          <span aria-hidden="true" class="material-symbols-outlined text-2xl text-slate-700 dark:text-slate-300 group-hover:text-primary transition-colors">code</span>
         </a>
-        <a href="#" class="p-4 rounded-full glass-panel bg-white/40 dark:bg-white/5 hover:bg-white/60 dark:hover:bg-white/10 transition-colors group">
-          <span class="material-symbols-outlined text-2xl text-slate-700 dark:text-slate-300 group-hover:text-primary transition-colors">work</span>
+        <a href="https://www.linkedin.com/in/ey-chen-1532971b2/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="p-4 rounded-full glass-panel bg-white/40 dark:bg-white/5 hover:bg-white/60 dark:hover:bg-white/10 transition-colors group">
+          <span aria-hidden="true" class="material-symbols-outlined text-2xl text-slate-700 dark:text-slate-300 group-hover:text-primary transition-colors">work</span>
         </a>
       </div>
     </div>

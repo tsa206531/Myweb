@@ -1,7 +1,7 @@
-# MyWeb - Frontend Engineer Portfolio
+# MyWeb - Full-Stack Engineer Portfolio
 
 ![IMG](img/02.jpg)
-這是一個基於 **Nuxt 3** 與 **Vue 3 (Composition API)** 開發的前端工程師個人網站/作品集 (Portfolio)。
+這是一個基於 **Nuxt 3** 與 **Vue 3 (Composition API)** 開發的全端工程師個人網站/作品集 (Portfolio)。
 
 ## 🛠 核心技術棧 (Tech Stack)
 

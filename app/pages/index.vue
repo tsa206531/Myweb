@@ -3,8 +3,8 @@
   <main class="flex-1 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 auto-rows-[minmax(180px,auto)]">
     
     <!-- Terminal Hero (Spans 2 cols, 2 rows on large screens) -->
-    <div class="md:col-span-2 md:row-span-2 glass-panel bg-glass-bg dark:bg-glass-bg-dark rounded-3xl p-8 flex flex-col justify-between group relative overflow-hidden transition-transform hover:scale-[1.01] duration-500">
-      <div class="absolute top-4 left-4 flex gap-2">
+    <div class="md:col-span-2 md:row-span-2 glass-panel bg-glass-bg dark:bg-glass-bg-dark rounded-3xl p-8 flex flex-col justify-between group relative overflow-hidden">
+      <div class="absolute top-4 left-4 flex gap-2" aria-hidden="true">
         <div class="w-3 h-3 rounded-full bg-red-400"></div>
         <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
         <div class="w-3 h-3 rounded-full bg-green-400"></div>
@@ -12,10 +12,10 @@
       <div class="mt-8 font-mono text-sm md:text-base leading-relaxed text-slate-700 dark:text-slate-300">
         <div class="mb-2 opacity-60">// Introduction</div>
         <div class="mb-4">
-          <span class="text-purple-600 dark:text-purple-400">const</span> <span class="text-blue-600 dark:text-blue-400">name</span> = <span class="text-green-600 dark:text-green-400">'EY chen'</span>;
+          <span class="text-purple-600 dark:text-purple-400">const</span> <span class="text-blue-600 dark:text-blue-400">name</span> = <span class="text-green-600 dark:text-green-400">'EY Chen'</span>;
         </div>
         <div class="mb-4">
-          <span class="text-purple-600 dark:text-purple-400">const</span> <span class="text-blue-600 dark:text-blue-400">role</span> = <span class="text-green-600 dark:text-green-400">'Frontend Engineer'</span>;
+          <span class="text-purple-600 dark:text-purple-400">const</span> <span class="text-blue-600 dark:text-blue-400">role</span> = <span class="text-green-600 dark:text-green-400">'Full-Stack Engineer'</span>;
         </div>
         <div class="mb-6">
           <span class="text-purple-600 dark:text-purple-400">const</span> <span class="text-blue-600 dark:text-blue-400">mission</span> = <span class="text-green-600 dark:text-green-400">'Crafting pixel-perfect, accessible, and performant user interfaces.'</span>;
@@ -28,16 +28,15 @@
       </div>
       <div class="mt-8">
         <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-[#181811] dark:text-white">
-          Hello, I'm <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-500 dark:from-white dark:to-slate-400">EY chen.</span>
+          Hello, I'm <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-500 dark:from-white dark:to-slate-400">EY Chen.</span>
         </h1>
         <p class="mt-2 text-slate-500 dark:text-slate-400 font-medium">Building the web, one component at a time.</p>
       </div>
     </div>
 
     <!-- Photo Widget (Vertical Card) -->
-    <div class="md:col-span-1 md:row-span-2 relative glass-panel bg-white/40 dark:bg-black/40 rounded-3xl p-3 flex flex-col items-center justify-center group overflow-hidden">
-      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110 opacity-90" data-alt="Monochrome artistic portrait of a frontend engineer looking at the horizon" style="background-image: url('../Background-photo.jpg');">
-      </div>
+    <NuxtLink to="/contact" aria-label="Taiwan, Taichung — Available for hire，前往聯絡頁" class="md:col-span-1 md:row-span-2 relative glass-panel bg-white/40 dark:bg-black/40 rounded-3xl p-3 flex flex-col items-center justify-center group overflow-hidden">
+      <img src="/Background-photo.jpg" alt="" width="1024" height="1024" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90" />
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
       <!-- Glass Overlay Info -->
       <div class="absolute bottom-4 left-4 right-4 glass-panel bg-white/10 dark:bg-black/30 backdrop-blur-xl rounded-2xl p-4 border-t border-white/20">
@@ -46,31 +45,31 @@
             <p class="text-white text-sm font-bold">Taiwan, Taichung</p>
             <p class="text-white/70 text-xs">Available for hire</p>
           </div>
-          <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-black">
-            <span class="material-symbols-outlined text-lg font-bold">arrow_outward</span>
+          <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-black transition-transform group-hover:rotate-45">
+            <span aria-hidden="true" class="material-symbols-outlined text-lg font-bold">arrow_outward</span>
           </div>
         </div>
       </div>
-    </div>
+    </NuxtLink>
 
     <!-- Quick Stats / Socials (Small Cards) -->
     <div class="grid grid-cols-2 gap-4 md:col-span-1 md:row-span-1 h-full">
-      <a class="glass-panel bg-white/60 dark:bg-[#2a2915] rounded-3xl p-4 flex flex-col items-center justify-center hover:bg-white/80 dark:hover:bg-[#33321a] transition-colors group" href="https://github.com/tsa206531">
+      <a class="glass-panel bg-white/60 dark:bg-[#2a2915] rounded-3xl p-4 flex flex-col items-center justify-center hover:bg-white/80 dark:hover:bg-[#33321a] transition-colors group" href="https://github.com/tsa206531" target="_blank" rel="noopener noreferrer">
         <div class="w-10 h-10 rounded-full bg-black dark:bg-white flex items-center justify-center text-white dark:text-black mb-2 group-hover:scale-110 transition-transform">
           <!-- Simulated GitHub Icon -->
-          <span class="material-symbols-outlined">code</span>
+          <span aria-hidden="true" class="material-symbols-outlined">code</span>
         </div>
         <span class="font-bold text-sm">GitHub</span>
       </a>
-      <a class="glass-panel bg-white/60 dark:bg-[#2a2915] rounded-3xl p-4 flex flex-col items-center justify-center hover:bg-white/80 dark:hover:bg-[#33321a] transition-colors group" href="https://www.linkedin.com/feed/">
+      <a class="glass-panel bg-white/60 dark:bg-[#2a2915] rounded-3xl p-4 flex flex-col items-center justify-center hover:bg-white/80 dark:hover:bg-[#33321a] transition-colors group" href="https://www.linkedin.com/in/ey-chen-1532971b2/" target="_blank" rel="noopener noreferrer">
         <div class="w-10 h-10 rounded-full bg-[#0077b5] flex items-center justify-center text-white mb-2 group-hover:scale-110 transition-transform">
-          <span class="material-symbols-outlined">work</span>
+          <span aria-hidden="true" class="material-symbols-outlined">work</span>
         </div>
         <span class="font-bold text-sm">LinkedIn</span>
       </a>
       <a class="glass-panel bg-white/60 dark:bg-[#2a2915] rounded-3xl p-4 flex flex-col items-center justify-center hover:bg-white/80 dark:hover:bg-[#33321a] transition-colors group col-span-2" href="#">
         <div class="flex items-center gap-2">
-          <span class="material-symbols-outlined text-3xl text-primary">mail</span>
+          <span aria-hidden="true" class="material-symbols-outlined text-3xl text-primary">mail</span>
           <div class="flex flex-col">
             <span class="text-xs text-slate-500 dark:text-slate-400">Get in touch</span>
             <span class="font-bold text-sm">tsa206531@gmail.com</span>
@@ -80,7 +79,8 @@
     </div>
 
 <!-- Widget -->
-    <div 
+    <button
+      type="button"
       class="md:col-span-1 lg:col-span-2 xl:col-span-1 glass-panel bg-white/50 dark:bg-[#1a1a1a] rounded-3xl p-6 flex flex-col justify-center items-center group hover:bg-white/80 dark:hover:bg-[#252525] transition-all duration-300 cursor-pointer relative overflow-hidden min-h-[180px]"
       @click="handleThoughtClick"
     >
@@ -121,7 +121,7 @@
           <p class="text-xs text-slate-400 dark:text-slate-500 font-mono">click for another thought</p>
         </div>
       </div>
-    </div>
+    </button>
 <!-- WidgetEND -->
 
     <!-- Tech Stack Ticker -->
@@ -141,7 +141,7 @@
           }"
           :loop="true"
           :speed="1250"
-          :autoplay="{
+          :autoplay="reducedMotion === 'reduce' ? false : {
             delay: 0,
             disableOnInteraction: false,
           }"
@@ -212,7 +212,7 @@
                   flex items-center gap-2 whitespace-nowrap"
           >
             Let's Chat
-            <span class="material-symbols-outlined">chat_bubble</span>
+            <span aria-hidden="true" class="material-symbols-outlined">chat_bubble</span>
           </NuxtLink>
       <!-- Decoration -->
       <div class="absolute -right-10 -bottom-20 w-64 h-64 bg-primary/20 rounded-full blur-[60px]"></div>
@@ -225,12 +225,14 @@
 import { ref } from 'vue'
 import { Autoplay } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/vue'
-import 'swiper/css'
+import { usePreferredReducedMotion } from '@vueuse/core'
 import techData from '../../mock/Tech.json'
 import thoughtsData from '../../mock/Focus_mode.json'
 
 const techStack = techData
 const SwiperAutoplay = Autoplay
+// 使用者系統設定「減少動態效果」時，停止 Tech Stack 跑馬燈
+const reducedMotion = usePreferredReducedMotion()
 
 // Thought Widget State Management
 type ThoughtState = 'idle' | 'loading' | 'showing'

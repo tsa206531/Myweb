@@ -4,12 +4,8 @@ export default <Config>{
     darkMode: 'class',
     content: [
         './app/**/*.{vue,js,ts,jsx,tsx}',
-        './components/**/*.{vue,js,ts}',
-        './layouts/**/*.vue',
-        './pages/**/*.vue',
-        './plugins/**/*.{js,ts}',
         './nuxt.config.{js,ts}',
-        './app.vue',
+        './mock/**/*.json', // work.json 裡的 cols / rows 會寫 Tailwind class
     ],
     theme: {
         extend: {

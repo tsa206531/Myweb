@@ -139,8 +139,8 @@
 
               <!-- Navigation Controls（手機上常駐顯示，桌機 hover / 鍵盤聚焦時顯示） -->
               <div v-if="selectedProject.images.length > 1" class="absolute inset-0 flex items-center justify-between p-4 pointer-events-none md:opacity-0 md:group-hover/carousel:opacity-100 md:focus-within:opacity-100 transition-opacity duration-300">
-                <button type="button" aria-label="上一張" @click.stop="prevImage" class="pointer-events-auto bg-black/20 backdrop-blur-md text-white p-2 rounded-full hover:bg-black/40"><span aria-hidden="true" class="material-symbols-outlined">chevron_left</span></button>
-                <button type="button" aria-label="下一張" @click.stop="nextImage" class="pointer-events-auto bg-black/20 backdrop-blur-md text-white p-2 rounded-full hover:bg-black/40"><span aria-hidden="true" class="material-symbols-outlined">chevron_right</span></button>
+                <button type="button" aria-label="上一張" @click.stop="prevImage" class="pointer-events-auto w-10 h-10 flex items-center justify-center bg-black/20 backdrop-blur-md text-white rounded-full hover:bg-black/40"><span aria-hidden="true" class="material-symbols-outlined leading-none">chevron_left</span></button>
+                <button type="button" aria-label="下一張" @click.stop="nextImage" class="pointer-events-auto w-10 h-10 flex items-center justify-center bg-black/20 backdrop-blur-md text-white rounded-full hover:bg-black/40"><span aria-hidden="true" class="material-symbols-outlined leading-none">chevron_right</span></button>
               </div>
             </div>
             <!-- Indicators -->

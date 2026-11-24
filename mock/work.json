@@ -54,14 +54,13 @@
     "year": "2026",
     "details": "PromptBox 是一個基於 Electron 的本地端桌面應用程式，專為 AI 工作者打造，幫助您高效管理和使用 AI Prompts。核心功能包含多層資料夾分類、智慧搜尋、一鍵複製、我的最愛、Markdown 支援，以及動態變數替換 (Variables Template) 提升重用性，並支援深色/淺色模式。",
     "links": {
-      "demo": "https://github.com/tsa206531/PromptBox",
+      "demo": "https://promptbox-web.vercel.app/",
       "github": "https://github.com/tsa206531/PromptBox"
     },
     "images": [
-      "https://raw.githubusercontent.com/tsa206531/PromptBox/main/img/01.jpg",
-      "https://raw.githubusercontent.com/tsa206531/PromptBox/main/img/02.jpg",
-      "https://raw.githubusercontent.com/tsa206531/PromptBox/main/img/03.jpg",
-      "https://raw.githubusercontent.com/tsa206531/PromptBox/main/img/04.jpg"
+      "https://promptbox-web.vercel.app/assets/ExImg/index-dark.png",
+      "https://promptbox-web.vercel.app/assets/ExImg/encryption-status.webp",
+      "https://promptbox-web.vercel.app/assets/ExImg/MCP.webp"
 
     ]
   },

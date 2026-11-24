@@ -50,18 +50,33 @@
         "color": "#CC669F"
     },
     {
-        "name": "vercel",
+        "name": "Vercel",
         "icon": "https://cdn.simpleicons.org/vercel/00DC82",
         "color": "#00DC82"
     },
     {
-        "name": "github",
+        "name": "GitHub",
         "icon": "https://cdn.simpleicons.org/github/181717",
         "color": "#181717"
     },
     {
-        "name": "googlegemini",
+        "name": "Gemini",
         "icon": "https://cdn.simpleicons.org/googlegemini/8E75B2",
         "color": "#8E75B2"
+    },
+    {
+        "name": "Claude",
+        "icon": "https://cdn.simpleicons.org/claude/D97757",
+        "color": "#D97757"
+    },
+    {
+        "name": "Supabase",
+        "icon": "https://cdn.simpleicons.org/supabase/3FCF8E",
+        "color": "#3FCF8E"
+    },
+    {
+        "name": "Cloudflare",
+        "icon": "https://cdn.simpleicons.org/cloudflare/F38020",
+        "color": "#F38020"
     }
 ]
